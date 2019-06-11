@@ -48,12 +48,12 @@ public class WebSampleTest extends AbstractTest {
 
         homePage.findExtendedWebElement(By.id("s2id_street-name")).click();
 
-        homePage.findExtendedWebElements(By.id("s2id_autogen1_search")).get(0).type("Рафиева");
+        homePage.findExtendedWebElements(By.id("s2id_autogen1_search")).get(0).type("Могилевская");
         homePage.findExtendedWebElement(By.className("select2-result-label")).click();
 
         homePage.findExtendedWebElement(By.id("s2id_home-number")).click();
 
-        homePage.findExtendedWebElement(By.id("s2id_autogen2_search")).type("93/3");
+        homePage.findExtendedWebElement(By.id("s2id_autogen2_search")).type("39/А");
         homePage.findExtendedWebElement(By.className("select2-result-label")).click();
 
         homePage.findExtendedWebElement(By.id("byaddress")).click();
