@@ -1,0 +1,86 @@
+[2019-06-10 04:33:49] [IMessager.java] [1] [INFO] INFO:  TEST [carina - testCreateUserMissingSomeFields] STARTED at [16:33:49 2019-06-10]
+[2019-06-10 04:33:49] [AbstractApiMethodV2.java] [1] [INFO] Base properties loaded: api/users/user.properties
+[2019-06-10 04:33:49] [LoggingOutputStream.java] [1] [INFO] Request method:	POST
+Request path:	https://jsonplaceholder.typicode.com/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Body:
+[
+  {
+    "id": 1,
+    
+    
+    "email": "Sincere@april.biz",
+    "address": {
+      "street": "Kulas Light",
+      "suite": "Apt. 556",
+      "city": "Gwenborough",
+      "zipcode": "92998-3874",
+      "geo": {
+        "lat": "-37.3159",
+        "lng": "81.1496"
+      }
+    },
+    "phone": "1-770-736-8031 x56442",
+    "website": "hildegard.org",
+    "company": {
+      "name": "emhoosrs",
+      "catchPhrase": "Multi-layered client-server neural-net",
+      "bs": "harness real-time e-markets"
+    }
+  }
+]
+HTTP/1.1 201 Created
+Date: Mon, 10 Jun 2019 13:34:10 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 516
+Connection: keep-alive
+Set-Cookie: __cfduid=d340ae641e88f78b9d8f541556b77e9951560173650; expires=Tue, 09-Jun-20 13:34:10 GMT; path=/; domain=.typicode.com; HttpOnly
+X-Powered-By: Express
+Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+Access-Control-Allow-Credentials: true
+Cache-Control: no-cache
+Pragma: no-cache
+Expires: -1
+Access-Control-Expose-Headers: Location
+Location: http://jsonplaceholder.typicode.com/users/11
+X-Content-Type-Options: nosniff
+Etag: W/"204-py/rNxwni/812CxZuw/+Qa7IFkg"
+Via: 1.1 vegur
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Server: cloudflare
+CF-RAY: 4e4bb8a33d8ecc7f-WAW
+
+{
+  "0": {
+    "id": 1,
+    "email": "Sincere@april.biz",
+    "address": {
+      "street": "Kulas Light",
+      "suite": "Apt. 556",
+      "city": "Gwenborough",
+      "zipcode": "92998-3874",
+      "geo": {
+        "lat": "-37.3159",
+        "lng": "81.1496"
+      }
+    },
+    "phone": "1-770-736-8031 x56442",
+    "website": "hildegard.org",
+    "company": {
+      "name": "emhoosrs",
+      "catchPhrase": "Multi-layered client-server neural-net",
+      "bs": "harness real-time e-markets"
+    }
+  },
+  "id": 11
+}
+
+[2019-06-10 04:33:49] [IMessager.java] [1] [INFO] INFO:  TEST [carina - testCreateUserMissingSomeFields] PASSED at [16:33:49 2019-06-10]

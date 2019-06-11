@@ -1,0 +1,86 @@
+[2019-06-10 04:33:49] [IMessager.java] [1] [INFO] INFO:  TEST [carina - testDeleteUsers] STARTED at [16:33:49 2019-06-10]
+[2019-06-10 04:33:49] [AbstractApiMethodV2.java] [1] [INFO] Base properties loaded: api/users/user.properties
+[2019-06-10 04:33:50] [LoggingOutputStream.java] [1] [INFO] Request method:	DELETE
+Request path:	https://jsonplaceholder.typicode.com/users/1
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Body:
+[
+  {
+    "id": 1,
+    "name": "Leanne Graham",
+    "username": "lmejinnq",
+    "email": "Sincere@april.biz",
+    "address": {
+      "street": "Kulas Light",
+      "suite": "Apt. 556",
+      "city": "Gwenborough",
+      "zipcode": "92998-3874",
+      "geo": {
+        "lat": "-37.3159",
+        "lng": "81.1496"
+      }
+    },
+    "phone": "1-770-736-8031 x56442",
+    "website": "hildegard.org",
+    "company": {
+      "name": "imijbihh",
+      "catchPhrase": "Multi-layered client-server neural-net",
+      "bs": "harness real-time e-markets"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Leanne Graham",
+    "username": "lmejinnq",
+    "email": "Sincere@april.biz",
+    "address": {
+      "street": "Kulas Light",
+      "suite": "Apt. 556",
+      "city": "Gwenborough",
+      "zipcode": "92998-3874",
+      "geo": {
+        "lat": "-37.3159",
+        "lng": "81.1496"
+      }
+    },
+    "phone": "1-770-736-8031 x56442",
+    "website": "hildegard.org",
+    "company": {
+      "name": "imijbihh",
+      "catchPhrase": "Multi-layered client-server neural-net",
+      "bs": "harness real-time e-markets"
+    }
+  }
+]
+HTTP/1.1 200 OK
+Date: Mon, 10 Jun 2019 13:34:11 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 2
+Connection: keep-alive
+Set-Cookie: __cfduid=d4256ad23bd6fb386846704613af724991560173650; expires=Tue, 09-Jun-20 13:34:10 GMT; path=/; domain=.typicode.com; HttpOnly
+X-Powered-By: Express
+Vary: Origin, Accept-Encoding
+Access-Control-Allow-Credentials: true
+Cache-Control: no-cache
+Pragma: no-cache
+Expires: -1
+X-Content-Type-Options: nosniff
+Etag: W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"
+Via: 1.1 vegur
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Server: cloudflare
+CF-RAY: 4e4bb8a5bb34b839-WAW
+
+{
+    
+}
+
+[2019-06-10 04:33:50] [IMessager.java] [1] [INFO] INFO:  TEST [carina - testDeleteUsers] PASSED at [16:33:50 2019-06-10]

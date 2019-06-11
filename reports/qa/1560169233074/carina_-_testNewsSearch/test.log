@@ -1,0 +1,8 @@
+[2019-06-10 03:22:32] [IMessager.java] [1] [INFO] INFO:  TEST [carina - testNewsSearch] STARTED at [15:22:32 2019-06-10]
+[2019-06-10 03:22:34] [IMessager.java] [1] [INFO] INFO: url 'https://www.gsmarena.com' is being opened...
+[2019-06-10 03:22:39] [DriverListener.java] [1] [INFO] INFO: url 'https://www.gsmarena.com' is opened.
+[2019-06-10 03:22:45] [DriverListener.java] [1] [INFO] PASS: element 'newsLink' is clicked.
+[2019-06-10 03:22:49] [DriverListener.java] [1] [INFO] PASS: keys cleared in element 'searchTextField'.
+[2019-06-10 03:22:52] [DriverListener.java] [1] [INFO] PASS: keys 'iphone' are sent to element 'searchTextField'.
+[2019-06-10 03:22:58] [DriverListener.java] [1] [INFO] PASS: element 'searchButton' is clicked.
+[2019-06-10 03:23:01] [IMessager.java] [1] [INFO] INFO:  TEST [carina - testNewsSearch] PASSED at [15:23:01 2019-06-10]

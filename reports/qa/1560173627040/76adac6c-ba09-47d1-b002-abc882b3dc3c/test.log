@@ -1,0 +1,5 @@
+[2019-06-10 04:33:51] [IMessager.java] [1] [INFO] INFO: '**************** Test execution summary ****************'.
+[2019-06-10 04:33:51] [IMessager.java] [1] [INFO] RESULT #1: TEST [carina - testCreateUser] PASS [log=file:///Users/maksimparhomenko/work/carina/./reports/qa/1560173627040/carina_-_testCreateUser/test.log]
+[2019-06-10 04:33:51] [IMessager.java] [1] [INFO] RESULT #2: TEST [carina - testCreateUserMissingSomeFields] PASS [log=file:///Users/maksimparhomenko/work/carina/./reports/qa/1560173627040/carina_-_testCreateUserMissingSomeFields/test.log]
+[2019-06-10 04:33:51] [IMessager.java] [1] [INFO] RESULT #3: TEST [carina - testDeleteUsers] PASS [log=file:///Users/maksimparhomenko/work/carina/./reports/qa/1560173627040/carina_-_testDeleteUsers/test.log]
+[2019-06-10 04:33:51] [IMessager.java] [1] [INFO] RESULT #4: TEST [carina - testGetUsers] PASS [log=file:///Users/maksimparhomenko/work/carina/./reports/qa/1560173627040/carina_-_testGetUsers/test.log]

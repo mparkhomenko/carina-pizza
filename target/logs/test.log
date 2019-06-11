@@ -1,0 +1,1925 @@
+2019-06-10 15:20:33 CarinaListener [INFO] 
+============= Test configuration =============
+url=https://www.gsmarena.com
+env=DEMO
+env_arg_resolver=com.qaprosoft.carina.core.foundation.utils.DefaultEnvArgResolver
+platform=*
+browser=chrome
+browser_version=*
+browser_locale=
+selenium_host=http://localhost:4444/wd/hub
+driver_event_listeners=
+max_driver_count=3
+custom_capabilities=
+app_version=
+proxy_host=
+proxy_port=
+proxy_protocols=http,https,ftp
+browsermob_proxy=false
+browsermob_host=
+browsermob_port=0
+browsermob_disabled_mitm=false
+proxy_set_to_system=false
+report_url=
+email_list=
+failure_email_list=
+track_known_issues=false
+auto_screenshot=true
+smart_screenshot=false
+implicit_timeout=10
+explicit_timeout=20
+auto_download=false
+auto_download_apps=
+custom_artifacts_folder=
+retry_interval=5
+project_report_directory=./reports/qa
+max_screen_history=10
+max_log_file_size=150
+result_sorting=true
+big_screen_width=-1
+big_screen_height=-1
+small_screen_width=90
+small_screen_height=60
+init_retry_count=0
+init_retry_interval=1
+retry_count=0
+enable_l10n=true
+l10n_encoding=ISO-8859-1
+locale=en_US
+enable_i18n=true
+language=en_US
+thread_count=1
+data_provider_thread_count=-1
+core_log_level=INFO
+core_log_packages=com.qaprosoft.carina.core
+artifacts_expiration_seconds=2592000
+log_all_json=true
+date_format=HH:mm:ss yyyy-MM-dd
+time_format=HH:mm:ss
+suite_name=
+jira_updater=com.qaprosoft.carina.core.foundation.jira.DefaultJiraUpdater
+jira_url=
+jira_user=
+jira_password=
+jira_suite_id=
+jira_project=
+jira_project_short=
+jira_create_new_ticket=false
+test_naming_pattern={method_name}
+optimize_video_recording=false
+testrail_run_name=
+testrail_milestone=
+testrail_assignee=
+qtest_cycle_name=DailyAutomation
+qtest_suite_name=
+s3_bucket_name=
+access_key_id=
+secret_key=
+s3_local_storage=.
+s3_save_screenshots=FALSE
+hockeyapp_token=
+hockeyapp_local_storage=.
+add_new_localization=false
+add_new_localization_encoding=utf-8
+add_new_localization_path=
+add_new_localization_property_name=new_custom_messages_
+tls_keysecure_location=
+health_check_class=
+health_check_methods=
+uninstall_related_apps=false
+default_device_timezone=GMT
+default_device_time_format=24
+default_device_language=en_US
+android_screen_record_size=
+android_screen_record_bitrate=
+android_enable_bug_report=true
+ios_screen_record_quality=MEDIUM
+ios_screen_record_codec=libx264
+ios_screen_record_fps=10
+screen_record_duration=180
+video_scale=-2:720
+ignore_ssl=false
+test_run_rules=
+hub_mode=selenium
+selenium_host=http://localhost:4444/wd/hub
+
+------------- Driver capabilities -----------
+================================================
+
+2019-06-10 15:20:33 CarinaListener [ERROR] L10N bundle is not initialized successfully!
+java.lang.ClassCastException: class jdk.internal.loader.ClassLoaders$AppClassLoader cannot be cast to class java.net.URLClassLoader (jdk.internal.loader.ClassLoaders$AppClassLoader and java.net.URLClassLoader are in module java.base of loader 'bootstrap')
+	at com.qaprosoft.carina.core.foundation.utils.resources.Resources.getResourceURLs(Resources.java:77)
+	at com.qaprosoft.carina.core.foundation.utils.resources.L10N.init(L10N.java:59)
+	at com.qaprosoft.carina.core.foundation.listeners.CarinaListener.<clinit>(CarinaListener.java:108)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at java.base/java.lang.Class.newInstance(Class.java:584)
+	at org.testng.internal.ClassHelper.newInstance(ClassHelper.java:69)
+	at org.testng.internal.DefaultListenerFactory.createListener(DefaultListenerFactory.java:13)
+	at org.testng.TestRunner.initListeners(TestRunner.java:315)
+	at org.testng.TestRunner.init(TestRunner.java:274)
+	at org.testng.TestRunner.init(TestRunner.java:241)
+	at org.testng.TestRunner.<init>(TestRunner.java:167)
+	at org.testng.SuiteRunner$DefaultTestRunnerFactory.newTestRunner(SuiteRunner.java:663)
+	at org.testng.SuiteRunner.init(SuiteRunner.java:260)
+	at org.testng.SuiteRunner.<init>(SuiteRunner.java:198)
+	at org.testng.TestNG.createSuiteRunner(TestNG.java:1295)
+	at org.testng.TestNG.createSuiteRunners(TestNG.java:1273)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1128)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:73)
+	at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
+2019-06-10 15:20:33 CarinaListener [ERROR] I18N bundle is not initialized successfully!
+java.lang.ClassCastException: class jdk.internal.loader.ClassLoaders$AppClassLoader cannot be cast to class java.net.URLClassLoader (jdk.internal.loader.ClassLoaders$AppClassLoader and java.net.URLClassLoader are in module java.base of loader 'bootstrap')
+	at com.qaprosoft.carina.core.foundation.utils.resources.Resources.getResourceURLs(Resources.java:77)
+	at com.qaprosoft.carina.core.foundation.utils.resources.I18N.init(I18N.java:56)
+	at com.qaprosoft.carina.core.foundation.listeners.CarinaListener.<clinit>(CarinaListener.java:114)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at java.base/java.lang.Class.newInstance(Class.java:584)
+	at org.testng.internal.ClassHelper.newInstance(ClassHelper.java:69)
+	at org.testng.internal.DefaultListenerFactory.createListener(DefaultListenerFactory.java:13)
+	at org.testng.TestRunner.initListeners(TestRunner.java:315)
+	at org.testng.TestRunner.init(TestRunner.java:274)
+	at org.testng.TestRunner.init(TestRunner.java:241)
+	at org.testng.TestRunner.<init>(TestRunner.java:167)
+	at org.testng.SuiteRunner$DefaultTestRunnerFactory.newTestRunner(SuiteRunner.java:663)
+	at org.testng.SuiteRunner.init(SuiteRunner.java:260)
+	at org.testng.SuiteRunner.<init>(SuiteRunner.java:198)
+	at org.testng.TestNG.createSuiteRunner(TestNG.java:1295)
+	at org.testng.TestNG.createSuiteRunners(TestNG.java:1273)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1128)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:73)
+	at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
+2019-06-10 15:20:33 Messager [INFO] INFO:  TEST [carina - testCompareModels] STARTED at [15:20:33 2019-06-10]
+2019-06-10 15:20:35 Messager [INFO] INFO: url 'https://www.gsmarena.com' is being opened...
+2019-06-10 15:20:41 DriverListener [INFO] INFO: url 'https://www.gsmarena.com' is opened.
+2019-06-10 15:20:47 DriverListener [INFO] PASS: element 'compareLink' is clicked.
+2019-06-10 15:20:51 DriverListener [INFO] PASS: element 'inputField' is clicked.
+2019-06-10 15:20:52 DriverListener [INFO] PASS: keys cleared in element 'inputField'.
+2019-06-10 15:20:54 DriverListener [INFO] PASS: keys 'Samsung Galaxy J3' are sent to element 'inputField'.
+2019-06-10 15:20:56 DriverListener [INFO] PASS: element 'Samsung Galaxy J3 (2016)' is clicked.
+2019-06-10 15:20:59 DriverListener [INFO] PASS: element 'inputField' is clicked.
+2019-06-10 15:21:01 DriverListener [INFO] PASS: keys cleared in element 'inputField'.
+2019-06-10 15:21:03 DriverListener [INFO] PASS: keys 'Samsung Galaxy J5' are sent to element 'inputField'.
+2019-06-10 15:21:06 DriverListener [INFO] PASS: element 'Samsung Galaxy J5' is clicked.
+2019-06-10 15:21:08 DriverListener [INFO] PASS: element 'inputField' is clicked.
+2019-06-10 15:21:10 DriverListener [INFO] PASS: keys cleared in element 'inputField'.
+2019-06-10 15:21:12 DriverListener [INFO] PASS: keys 'Samsung Galaxy J7 Pro' are sent to element 'inputField'.
+2019-06-10 15:21:15 DriverListener [INFO] PASS: element 'Samsung Galaxy J7 Pro' is clicked.
+2019-06-10 15:21:18 Messager [INFO] INFO:  TEST [carina - testCompareModels] FAILED at [15:21:18 2019-06-10] - expected [2016, September] but found [2015, June]
+
+org.testng.Assert.fail(Assert.java:96)
+org.testng.Assert.failNotEquals(Assert.java:776)
+org.testng.Assert.assertEqualsImpl(Assert.java:137)
+org.testng.Assert.assertEquals(Assert.java:118)
+org.testng.Assert.assertEquals(Assert.java:453)
+org.testng.Assert.assertEquals(Assert.java:463)
+com.qaprosoft.carina.demo.WebSampleTest.testCompareModels(WebSampleTest.java:87)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.base/java.lang.reflect.Method.invoke(Method.java:566)
+org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+org.testng.TestRunner.privateRun(TestRunner.java:648)
+org.testng.TestRunner.run(TestRunner.java:505)
+org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+org.testng.SuiteRunner.run(SuiteRunner.java:364)
+org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+org.testng.TestNG.runSuites(TestNG.java:1049)
+org.testng.TestNG.run(TestNG.java:1017)
+org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:73)
+org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
+2019-06-10 15:21:20 Messager [INFO] INFO:  TEST [GSMA0001 - carina - testModelSpecs] STARTED at [15:21:20 2019-06-10]
+2019-06-10 15:21:22 Messager [INFO] INFO: url 'https://www.gsmarena.com' is being opened...
+2019-06-10 15:21:26 DriverListener [INFO] INFO: url 'https://www.gsmarena.com' is opened.
+2019-06-10 15:21:30 AbstractPage [INFO] selecting 'Samsung' brand...
+2019-06-10 15:21:31 AbstractPage [INFO] currentBrand: PHONE FINDER
+2019-06-10 15:21:31 AbstractPage [INFO] currentBrand: SAMSUNG
+2019-06-10 15:21:36 DriverListener [INFO] PASS: element 'SAMSUNG' is clicked.
+2019-06-10 15:21:42 DriverListener [INFO] PASS: element 'modelLink' is clicked.
+2019-06-10 15:21:45 Messager [INFO] INFO:  TEST [GSMA0001 - carina - testModelSpecs] PASSED at [15:21:45 2019-06-10]
+2019-06-10 15:21:45 Messager [INFO] INFO:  TEST [GSMA0002 - carina - testModelSpecs] STARTED at [15:21:45 2019-06-10]
+2019-06-10 15:21:47 Messager [INFO] INFO: url 'https://www.gsmarena.com' is being opened...
+2019-06-10 15:21:52 DriverListener [INFO] INFO: url 'https://www.gsmarena.com' is opened.
+2019-06-10 15:21:54 AbstractPage [INFO] selecting 'Samsung' brand...
+2019-06-10 15:21:55 AbstractPage [INFO] currentBrand: PHONE FINDER
+2019-06-10 15:21:55 AbstractPage [INFO] currentBrand: SAMSUNG
+2019-06-10 15:21:57 DriverListener [INFO] PASS: element 'SAMSUNG' is clicked.
+2019-06-10 15:22:04 DriverListener [INFO] PASS: element 'modelLink' is clicked.
+2019-06-10 15:22:07 Messager [INFO] INFO:  TEST [GSMA0002 - carina - testModelSpecs] PASSED at [15:22:07 2019-06-10]
+2019-06-10 15:22:07 Messager [INFO] INFO:  TEST [GSMA0003 - carina - testModelSpecs] STARTED at [15:22:07 2019-06-10]
+2019-06-10 15:22:09 Messager [INFO] INFO: url 'https://www.gsmarena.com' is being opened...
+2019-06-10 15:22:13 DriverListener [INFO] INFO: url 'https://www.gsmarena.com' is opened.
+2019-06-10 15:22:17 AbstractPage [INFO] selecting 'Samsung' brand...
+2019-06-10 15:22:17 AbstractPage [INFO] currentBrand: PHONE FINDER
+2019-06-10 15:22:17 AbstractPage [INFO] currentBrand: SAMSUNG
+2019-06-10 15:22:23 DriverListener [INFO] PASS: element 'SAMSUNG' is clicked.
+2019-06-10 15:22:30 DriverListener [INFO] PASS: element 'modelLink' is clicked.
+2019-06-10 15:22:32 Messager [INFO] INFO:  TEST [GSMA0003 - carina - testModelSpecs] PASSED at [15:22:32 2019-06-10]
+2019-06-10 15:22:32 Messager [INFO] INFO:  TEST [carina - testNewsSearch] STARTED at [15:22:32 2019-06-10]
+2019-06-10 15:22:34 Messager [INFO] INFO: url 'https://www.gsmarena.com' is being opened...
+2019-06-10 15:22:39 DriverListener [INFO] INFO: url 'https://www.gsmarena.com' is opened.
+2019-06-10 15:22:45 DriverListener [INFO] PASS: element 'newsLink' is clicked.
+2019-06-10 15:22:49 DriverListener [INFO] PASS: keys cleared in element 'searchTextField'.
+2019-06-10 15:22:52 DriverListener [INFO] PASS: keys 'iphone' are sent to element 'searchTextField'.
+2019-06-10 15:22:58 DriverListener [INFO] PASS: element 'searchButton' is clicked.
+2019-06-10 15:23:01 Messager [INFO] INFO:  TEST [carina - testNewsSearch] PASSED at [15:23:01 2019-06-10]
+2019-06-10 15:23:02 Messager [INFO] INFO: '**************** Test execution summary ****************'.
+2019-06-10 15:23:02 Messager [INFO] RESULT #1: TEST [carina - testCompareModels] FAIL [screenshots=file:///Users/maksimparhomenko/work/carina/./reports/qa/1560169233074/carina_-_testCompareModels/report.html | log=file:///Users/maksimparhomenko/work/carina/./reports/qa/1560169233074/carina_-_testCompareModels/test.log]
+2019-06-10 15:23:02 Messager [INFO] RESULT #2: TEST [GSMA0001 - carina - testModelSpecs] PASS [screenshots=file:///Users/maksimparhomenko/work/carina/./reports/qa/1560169233074/GSMA0001_-_carina_-_testModelSpecs/report.html | log=file:///Users/maksimparhomenko/work/carina/./reports/qa/1560169233074/GSMA0001_-_carina_-_testModelSpecs/test.log]
+2019-06-10 15:23:02 Messager [INFO] RESULT #3: TEST [GSMA0002 - carina - testModelSpecs] PASS [screenshots=file:///Users/maksimparhomenko/work/carina/./reports/qa/1560169233074/GSMA0002_-_carina_-_testModelSpecs/report.html | log=file:///Users/maksimparhomenko/work/carina/./reports/qa/1560169233074/GSMA0002_-_carina_-_testModelSpecs/test.log]
+2019-06-10 15:23:02 Messager [INFO] RESULT #4: TEST [GSMA0003 - carina - testModelSpecs] PASS [screenshots=file:///Users/maksimparhomenko/work/carina/./reports/qa/1560169233074/GSMA0003_-_carina_-_testModelSpecs/report.html | log=file:///Users/maksimparhomenko/work/carina/./reports/qa/1560169233074/GSMA0003_-_carina_-_testModelSpecs/test.log]
+2019-06-10 15:23:02 Messager [INFO] RESULT #5: TEST [carina - testNewsSearch] PASS [screenshots=file:///Users/maksimparhomenko/work/carina/./reports/qa/1560169233074/carina_-_testNewsSearch/report.html | log=file:///Users/maksimparhomenko/work/carina/./reports/qa/1560169233074/carina_-_testNewsSearch/test.log]
+2019-06-10 16:13:45 CarinaListener [INFO] 
+============= Test configuration =============
+url=https://www.pzz.by
+env=DEMO
+env_arg_resolver=com.qaprosoft.carina.core.foundation.utils.DefaultEnvArgResolver
+platform=*
+browser=chrome
+browser_version=*
+browser_locale=
+selenium_host=http://localhost:4444/wd/hub
+driver_event_listeners=
+max_driver_count=3
+custom_capabilities=
+app_version=
+proxy_host=
+proxy_port=
+proxy_protocols=http,https,ftp
+browsermob_proxy=false
+browsermob_host=
+browsermob_port=0
+browsermob_disabled_mitm=false
+proxy_set_to_system=false
+report_url=
+email_list=
+failure_email_list=
+track_known_issues=false
+auto_screenshot=true
+smart_screenshot=false
+implicit_timeout=10
+explicit_timeout=20
+auto_download=false
+auto_download_apps=
+custom_artifacts_folder=
+retry_interval=5
+project_report_directory=./reports/qa
+max_screen_history=10
+max_log_file_size=150
+result_sorting=true
+big_screen_width=-1
+big_screen_height=-1
+small_screen_width=90
+small_screen_height=60
+init_retry_count=0
+init_retry_interval=1
+retry_count=0
+enable_l10n=true
+l10n_encoding=ISO-8859-1
+locale=en_US
+enable_i18n=true
+language=en_US
+thread_count=1
+data_provider_thread_count=-1
+core_log_level=INFO
+core_log_packages=com.qaprosoft.carina.core
+artifacts_expiration_seconds=2592000
+log_all_json=true
+date_format=HH:mm:ss yyyy-MM-dd
+time_format=HH:mm:ss
+suite_name=
+jira_updater=com.qaprosoft.carina.core.foundation.jira.DefaultJiraUpdater
+jira_url=
+jira_user=
+jira_password=
+jira_suite_id=
+jira_project=
+jira_project_short=
+jira_create_new_ticket=false
+test_naming_pattern={method_name}
+optimize_video_recording=false
+testrail_run_name=
+testrail_milestone=
+testrail_assignee=
+qtest_cycle_name=DailyAutomation
+qtest_suite_name=
+s3_bucket_name=
+access_key_id=
+secret_key=
+s3_local_storage=.
+s3_save_screenshots=FALSE
+hockeyapp_token=
+hockeyapp_local_storage=.
+add_new_localization=false
+add_new_localization_encoding=utf-8
+add_new_localization_path=
+add_new_localization_property_name=new_custom_messages_
+tls_keysecure_location=
+health_check_class=
+health_check_methods=
+uninstall_related_apps=false
+default_device_timezone=GMT
+default_device_time_format=24
+default_device_language=en_US
+android_screen_record_size=
+android_screen_record_bitrate=
+android_enable_bug_report=true
+ios_screen_record_quality=MEDIUM
+ios_screen_record_codec=libx264
+ios_screen_record_fps=10
+screen_record_duration=180
+video_scale=-2:720
+ignore_ssl=false
+test_run_rules=
+hub_mode=selenium
+selenium_host=http://localhost:4444/wd/hub
+
+------------- Driver capabilities -----------
+================================================
+
+2019-06-10 16:13:45 CarinaListener [ERROR] L10N bundle is not initialized successfully!
+java.lang.ClassCastException: class jdk.internal.loader.ClassLoaders$AppClassLoader cannot be cast to class java.net.URLClassLoader (jdk.internal.loader.ClassLoaders$AppClassLoader and java.net.URLClassLoader are in module java.base of loader 'bootstrap')
+	at com.qaprosoft.carina.core.foundation.utils.resources.Resources.getResourceURLs(Resources.java:77)
+	at com.qaprosoft.carina.core.foundation.utils.resources.L10N.init(L10N.java:59)
+	at com.qaprosoft.carina.core.foundation.listeners.CarinaListener.<clinit>(CarinaListener.java:108)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at java.base/java.lang.Class.newInstance(Class.java:584)
+	at org.testng.internal.ClassHelper.newInstance(ClassHelper.java:69)
+	at org.testng.internal.DefaultListenerFactory.createListener(DefaultListenerFactory.java:13)
+	at org.testng.TestRunner.initListeners(TestRunner.java:315)
+	at org.testng.TestRunner.init(TestRunner.java:274)
+	at org.testng.TestRunner.init(TestRunner.java:241)
+	at org.testng.TestRunner.<init>(TestRunner.java:167)
+	at org.testng.SuiteRunner$DefaultTestRunnerFactory.newTestRunner(SuiteRunner.java:663)
+	at org.testng.SuiteRunner.init(SuiteRunner.java:260)
+	at org.testng.SuiteRunner.<init>(SuiteRunner.java:198)
+	at org.testng.TestNG.createSuiteRunner(TestNG.java:1295)
+	at org.testng.TestNG.createSuiteRunners(TestNG.java:1273)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1128)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:73)
+	at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
+2019-06-10 16:13:45 CarinaListener [ERROR] I18N bundle is not initialized successfully!
+java.lang.ClassCastException: class jdk.internal.loader.ClassLoaders$AppClassLoader cannot be cast to class java.net.URLClassLoader (jdk.internal.loader.ClassLoaders$AppClassLoader and java.net.URLClassLoader are in module java.base of loader 'bootstrap')
+	at com.qaprosoft.carina.core.foundation.utils.resources.Resources.getResourceURLs(Resources.java:77)
+	at com.qaprosoft.carina.core.foundation.utils.resources.I18N.init(I18N.java:56)
+	at com.qaprosoft.carina.core.foundation.listeners.CarinaListener.<clinit>(CarinaListener.java:114)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at java.base/java.lang.Class.newInstance(Class.java:584)
+	at org.testng.internal.ClassHelper.newInstance(ClassHelper.java:69)
+	at org.testng.internal.DefaultListenerFactory.createListener(DefaultListenerFactory.java:13)
+	at org.testng.TestRunner.initListeners(TestRunner.java:315)
+	at org.testng.TestRunner.init(TestRunner.java:274)
+	at org.testng.TestRunner.init(TestRunner.java:241)
+	at org.testng.TestRunner.<init>(TestRunner.java:167)
+	at org.testng.SuiteRunner$DefaultTestRunnerFactory.newTestRunner(SuiteRunner.java:663)
+	at org.testng.SuiteRunner.init(SuiteRunner.java:260)
+	at org.testng.SuiteRunner.<init>(SuiteRunner.java:198)
+	at org.testng.TestNG.createSuiteRunner(TestNG.java:1295)
+	at org.testng.TestNG.createSuiteRunners(TestNG.java:1273)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1128)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:73)
+	at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
+2019-06-10 16:13:45 Messager [INFO] INFO:  TEST [carina - testCompareModels] STARTED at [16:13:45 2019-06-10]
+2019-06-10 16:13:47 Messager [INFO] INFO: url 'https://www.pzz.by' is being opened...
+2019-06-10 16:13:48 DriverListener [INFO] INFO: url 'https://www.pzz.by' is opened.
+2019-06-10 16:14:11 DriverListener [INFO] PASS: element 'By.className: in-cart' is clicked.
+2019-06-10 16:14:15 DriverListener [INFO] PASS: element 'By.id: s2id_street-name' is clicked.
+2019-06-10 16:14:19 DriverListener [INFO] PASS: keys cleared in element ''.
+2019-06-10 16:14:21 DriverListener [INFO] PASS: keys 'Рафиева' are sent to element ''.
+2019-06-10 16:14:23 DriverListener [INFO] PASS: element 'By.className: select2-result-label' is clicked.
+2019-06-10 16:14:26 DriverListener [INFO] PASS: element 'By.id: s2id_home-number' is clicked.
+2019-06-10 16:14:30 DriverListener [INFO] PASS: keys cleared in element 'By.id: s2id_autogen2_search'.
+2019-06-10 16:14:32 DriverListener [INFO] PASS: keys '93/3' are sent to element 'By.id: s2id_autogen2_search'.
+2019-06-10 16:14:34 DriverListener [INFO] PASS: element 'By.className: select2-result-label' is clicked.
+2019-06-10 16:14:35 DriverListener [INFO] PASS: element 'By.id: byaddress' is clicked.
+2019-06-10 16:14:40 DriverListener [INFO] PASS: element 'By.className: in-cart' is clicked.
+2019-06-10 16:14:42 DriverListener [INFO] PASS: element 'By.className: minus-item' is clicked.
+2019-06-10 16:14:44 DriverListener [INFO] PASS: element 'By.className: in-cart' is clicked.
+2019-06-10 16:14:46 DriverListener [INFO] PASS: element 'By.className: minus-item' is clicked.
+2019-06-10 16:14:47 DriverListener [INFO] PASS: element 'By.className: in-cart' is clicked.
+2019-06-10 16:14:49 DriverListener [INFO] PASS: element 'By.className: in-cart' is clicked.
+2019-06-10 16:14:51 DriverListener [INFO] PASS: element 'By.className: pzz-cart__goto' is clicked.
+2019-06-10 16:14:54 DriverListener [INFO] PASS: keys cleared in element 'By.className: i-p'.
+2019-06-10 16:14:56 DriverListener [INFO] PASS: keys 'Максим' are sent to element 'By.className: i-p'.
+2019-06-10 16:14:57 DriverListener [INFO] PASS: keys cleared in element 'By.name: phoneNumber'.
+2019-06-10 16:14:58 DriverListener [INFO] PASS: keys '447882912' are sent to element 'By.name: phoneNumber'.
+2019-06-10 16:14:59 DriverListener [INFO] PASS: keys cleared in element 'By.name: flat'.
+2019-06-10 16:15:00 DriverListener [INFO] PASS: keys '30' are sent to element 'By.name: flat'.
+2019-06-10 16:15:01 DriverListener [INFO] PASS: keys cleared in element 'By.name: entrance'.
+2019-06-10 16:15:03 DriverListener [INFO] PASS: keys '1' are sent to element 'By.name: entrance'.
+2019-06-10 16:15:04 DriverListener [INFO] PASS: keys cleared in element 'By.name: floor'.
+2019-06-10 16:15:05 DriverListener [INFO] PASS: keys '6' are sent to element 'By.name: floor'.
+2019-06-10 16:15:06 DriverListener [INFO] PASS: keys cleared in element 'By.name: intercom'.
+2019-06-10 16:15:07 DriverListener [INFO] PASS: keys '30' are sent to element 'By.name: intercom'.
+2019-06-10 16:15:08 DriverListener [INFO] PASS: element 'By.className: payment-cash-button' is clicked.
+2019-06-10 16:15:10 Messager [INFO] INFO:  TEST [carina - testCompareModels] PASSED at [16:15:10 2019-06-10]
+2019-06-10 16:15:10 Messager [INFO] INFO: '**************** Test execution summary ****************'.
+2019-06-10 16:15:10 Messager [INFO] RESULT #1: TEST [carina - testCompareModels] PASS [screenshots=file:///Users/maksimparhomenko/work/carina/./reports/qa/1560172425757/carina_-_testCompareModels/report.html | log=file:///Users/maksimparhomenko/work/carina/./reports/qa/1560172425757/carina_-_testCompareModels/test.log]
+2019-06-10 16:16:37 CarinaListener [INFO] 
+============= Test configuration =============
+url=https://www.pzz.by
+env=DEMO
+env_arg_resolver=com.qaprosoft.carina.core.foundation.utils.DefaultEnvArgResolver
+platform=*
+browser=chrome
+browser_version=*
+browser_locale=
+selenium_host=http://localhost:4444/wd/hub
+driver_event_listeners=
+max_driver_count=3
+custom_capabilities=
+app_version=
+proxy_host=
+proxy_port=
+proxy_protocols=http,https,ftp
+browsermob_proxy=false
+browsermob_host=
+browsermob_port=0
+browsermob_disabled_mitm=false
+proxy_set_to_system=false
+report_url=
+email_list=
+failure_email_list=
+track_known_issues=false
+auto_screenshot=true
+smart_screenshot=false
+implicit_timeout=10
+explicit_timeout=20
+auto_download=false
+auto_download_apps=
+custom_artifacts_folder=
+retry_interval=5
+project_report_directory=./reports/qa
+max_screen_history=10
+max_log_file_size=150
+result_sorting=true
+big_screen_width=-1
+big_screen_height=-1
+small_screen_width=90
+small_screen_height=60
+init_retry_count=0
+init_retry_interval=1
+retry_count=0
+enable_l10n=true
+l10n_encoding=ISO-8859-1
+locale=en_US
+enable_i18n=true
+language=en_US
+thread_count=1
+data_provider_thread_count=-1
+core_log_level=INFO
+core_log_packages=com.qaprosoft.carina.core
+artifacts_expiration_seconds=2592000
+log_all_json=true
+date_format=HH:mm:ss yyyy-MM-dd
+time_format=HH:mm:ss
+suite_name=
+jira_updater=com.qaprosoft.carina.core.foundation.jira.DefaultJiraUpdater
+jira_url=
+jira_user=
+jira_password=
+jira_suite_id=
+jira_project=
+jira_project_short=
+jira_create_new_ticket=false
+test_naming_pattern={method_name}
+optimize_video_recording=false
+testrail_run_name=
+testrail_milestone=
+testrail_assignee=
+qtest_cycle_name=DailyAutomation
+qtest_suite_name=
+s3_bucket_name=
+access_key_id=
+secret_key=
+s3_local_storage=.
+s3_save_screenshots=FALSE
+hockeyapp_token=
+hockeyapp_local_storage=.
+add_new_localization=false
+add_new_localization_encoding=utf-8
+add_new_localization_path=
+add_new_localization_property_name=new_custom_messages_
+tls_keysecure_location=
+health_check_class=
+health_check_methods=
+uninstall_related_apps=false
+default_device_timezone=GMT
+default_device_time_format=24
+default_device_language=en_US
+android_screen_record_size=
+android_screen_record_bitrate=
+android_enable_bug_report=true
+ios_screen_record_quality=MEDIUM
+ios_screen_record_codec=libx264
+ios_screen_record_fps=10
+screen_record_duration=180
+video_scale=-2:720
+ignore_ssl=false
+test_run_rules=
+hub_mode=selenium
+selenium_host=http://localhost:4444/wd/hub
+
+------------- Driver capabilities -----------
+================================================
+
+2019-06-10 16:16:37 CarinaListener [ERROR] L10N bundle is not initialized successfully!
+java.lang.ClassCastException: class jdk.internal.loader.ClassLoaders$AppClassLoader cannot be cast to class java.net.URLClassLoader (jdk.internal.loader.ClassLoaders$AppClassLoader and java.net.URLClassLoader are in module java.base of loader 'bootstrap')
+	at com.qaprosoft.carina.core.foundation.utils.resources.Resources.getResourceURLs(Resources.java:77)
+	at com.qaprosoft.carina.core.foundation.utils.resources.L10N.init(L10N.java:59)
+	at com.qaprosoft.carina.core.foundation.listeners.CarinaListener.<clinit>(CarinaListener.java:108)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at java.base/java.lang.Class.newInstance(Class.java:584)
+	at org.testng.internal.ClassHelper.newInstance(ClassHelper.java:69)
+	at org.testng.internal.DefaultListenerFactory.createListener(DefaultListenerFactory.java:13)
+	at org.testng.TestRunner.initListeners(TestRunner.java:315)
+	at org.testng.TestRunner.init(TestRunner.java:274)
+	at org.testng.TestRunner.init(TestRunner.java:241)
+	at org.testng.TestRunner.<init>(TestRunner.java:167)
+	at org.testng.SuiteRunner$DefaultTestRunnerFactory.newTestRunner(SuiteRunner.java:663)
+	at org.testng.SuiteRunner.init(SuiteRunner.java:260)
+	at org.testng.SuiteRunner.<init>(SuiteRunner.java:198)
+	at org.testng.TestNG.createSuiteRunner(TestNG.java:1295)
+	at org.testng.TestNG.createSuiteRunners(TestNG.java:1273)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1128)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:73)
+	at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
+2019-06-10 16:16:37 CarinaListener [ERROR] I18N bundle is not initialized successfully!
+java.lang.ClassCastException: class jdk.internal.loader.ClassLoaders$AppClassLoader cannot be cast to class java.net.URLClassLoader (jdk.internal.loader.ClassLoaders$AppClassLoader and java.net.URLClassLoader are in module java.base of loader 'bootstrap')
+	at com.qaprosoft.carina.core.foundation.utils.resources.Resources.getResourceURLs(Resources.java:77)
+	at com.qaprosoft.carina.core.foundation.utils.resources.I18N.init(I18N.java:56)
+	at com.qaprosoft.carina.core.foundation.listeners.CarinaListener.<clinit>(CarinaListener.java:114)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at java.base/java.lang.Class.newInstance(Class.java:584)
+	at org.testng.internal.ClassHelper.newInstance(ClassHelper.java:69)
+	at org.testng.internal.DefaultListenerFactory.createListener(DefaultListenerFactory.java:13)
+	at org.testng.TestRunner.initListeners(TestRunner.java:315)
+	at org.testng.TestRunner.init(TestRunner.java:274)
+	at org.testng.TestRunner.init(TestRunner.java:241)
+	at org.testng.TestRunner.<init>(TestRunner.java:167)
+	at org.testng.SuiteRunner$DefaultTestRunnerFactory.newTestRunner(SuiteRunner.java:663)
+	at org.testng.SuiteRunner.init(SuiteRunner.java:260)
+	at org.testng.SuiteRunner.<init>(SuiteRunner.java:198)
+	at org.testng.TestNG.createSuiteRunner(TestNG.java:1295)
+	at org.testng.TestNG.createSuiteRunners(TestNG.java:1273)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1128)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:73)
+	at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
+2019-06-10 16:16:37 Messager [INFO] INFO:  TEST [carina - testCompareModels] STARTED at [16:16:37 2019-06-10]
+2019-06-10 16:16:39 Messager [INFO] INFO: url 'https://www.pzz.by' is being opened...
+2019-06-10 16:16:39 DriverListener [INFO] INFO: url 'https://www.pzz.by' is opened.
+2019-06-10 16:16:48 DriverListener [INFO] PASS: element 'By.className: in-cart' is clicked.
+2019-06-10 16:16:51 DriverListener [INFO] PASS: element 'By.id: s2id_street-name' is clicked.
+2019-06-10 16:16:52 DriverListener [INFO] PASS: keys cleared in element ''.
+2019-06-10 16:16:55 DriverListener [INFO] PASS: keys 'Рафиева' are sent to element ''.
+2019-06-10 16:16:56 DriverListener [INFO] PASS: element 'By.className: select2-result-label' is clicked.
+2019-06-10 16:16:58 DriverListener [INFO] PASS: element 'By.id: s2id_home-number' is clicked.
+2019-06-10 16:17:00 DriverListener [INFO] PASS: keys cleared in element 'By.id: s2id_autogen2_search'.
+2019-06-10 16:17:01 DriverListener [INFO] PASS: keys '93/3' are sent to element 'By.id: s2id_autogen2_search'.
+2019-06-10 16:17:03 DriverListener [INFO] PASS: element 'By.className: select2-result-label' is clicked.
+2019-06-10 16:17:05 DriverListener [INFO] PASS: element 'By.id: byaddress' is clicked.
+2019-06-10 16:17:08 DriverListener [INFO] PASS: element 'By.className: in-cart' is clicked.
+2019-06-10 16:17:10 DriverListener [INFO] PASS: element 'By.className: minus-item' is clicked.
+2019-06-10 16:17:12 DriverListener [INFO] PASS: element 'By.className: in-cart' is clicked.
+2019-06-10 16:17:13 DriverListener [INFO] PASS: element 'By.className: minus-item' is clicked.
+2019-06-10 16:17:15 DriverListener [INFO] PASS: element 'By.className: in-cart' is clicked.
+2019-06-10 16:17:17 DriverListener [INFO] PASS: element 'By.className: in-cart' is clicked.
+2019-06-10 16:17:19 DriverListener [INFO] PASS: element 'By.className: pzz-cart__goto' is clicked.
+2019-06-10 16:17:20 DriverListener [INFO] PASS: keys cleared in element 'By.className: i-p'.
+2019-06-10 16:17:22 DriverListener [INFO] PASS: keys 'Максим' are sent to element 'By.className: i-p'.
+2019-06-10 16:17:23 DriverListener [INFO] PASS: keys cleared in element 'By.name: phoneNumber'.
+2019-06-10 16:17:24 DriverListener [INFO] PASS: keys '447882912' are sent to element 'By.name: phoneNumber'.
+2019-06-10 16:17:25 DriverListener [INFO] PASS: keys cleared in element 'By.name: flat'.
+2019-06-10 16:17:26 DriverListener [INFO] PASS: keys '30' are sent to element 'By.name: flat'.
+2019-06-10 16:17:27 DriverListener [INFO] PASS: keys cleared in element 'By.name: entrance'.
+2019-06-10 16:17:29 DriverListener [INFO] PASS: keys '1' are sent to element 'By.name: entrance'.
+2019-06-10 16:17:30 DriverListener [INFO] PASS: keys cleared in element 'By.name: floor'.
+2019-06-10 16:17:31 DriverListener [INFO] PASS: keys '6' are sent to element 'By.name: floor'.
+2019-06-10 16:17:32 DriverListener [INFO] PASS: keys cleared in element 'By.name: intercom'.
+2019-06-10 16:17:33 DriverListener [INFO] PASS: keys '30' are sent to element 'By.name: intercom'.
+2019-06-10 16:17:34 DriverListener [INFO] PASS: element 'By.className: payment-cash-button' is clicked.
+2019-06-10 16:17:36 Messager [INFO] INFO:  TEST [carina - testCompareModels] PASSED at [16:17:36 2019-06-10]
+2019-06-10 16:17:36 Messager [INFO] INFO: '**************** Test execution summary ****************'.
+2019-06-10 16:17:36 Messager [INFO] RESULT #1: TEST [carina - testCompareModels] PASS [screenshots=file:///Users/maksimparhomenko/work/carina/./reports/qa/1560172597488/carina_-_testCompareModels/report.html | log=file:///Users/maksimparhomenko/work/carina/./reports/qa/1560172597488/carina_-_testCompareModels/test.log]
+2019-06-10 16:21:11 CarinaListener [INFO] 
+============= Test configuration =============
+url=http://www.pzz.by
+env=DEMO
+env_arg_resolver=com.qaprosoft.carina.core.foundation.utils.DefaultEnvArgResolver
+platform=*
+browser=chrome
+browser_version=*
+browser_locale=
+selenium_host=http://localhost:4444/wd/hub
+driver_event_listeners=
+max_driver_count=3
+custom_capabilities=
+app_version=
+proxy_host=
+proxy_port=
+proxy_protocols=http,https,ftp
+browsermob_proxy=false
+browsermob_host=
+browsermob_port=0
+browsermob_disabled_mitm=false
+proxy_set_to_system=false
+report_url=
+email_list=
+failure_email_list=
+track_known_issues=false
+auto_screenshot=true
+smart_screenshot=false
+implicit_timeout=10
+explicit_timeout=20
+auto_download=false
+auto_download_apps=
+custom_artifacts_folder=
+retry_interval=5
+project_report_directory=./reports/qa
+max_screen_history=10
+max_log_file_size=150
+result_sorting=true
+big_screen_width=-1
+big_screen_height=-1
+small_screen_width=90
+small_screen_height=60
+init_retry_count=0
+init_retry_interval=1
+retry_count=0
+enable_l10n=true
+l10n_encoding=ISO-8859-1
+locale=en_US
+enable_i18n=true
+language=en_US
+thread_count=1
+data_provider_thread_count=-1
+core_log_level=INFO
+core_log_packages=com.qaprosoft.carina.core
+artifacts_expiration_seconds=2592000
+log_all_json=true
+date_format=HH:mm:ss yyyy-MM-dd
+time_format=HH:mm:ss
+suite_name=
+jira_updater=com.qaprosoft.carina.core.foundation.jira.DefaultJiraUpdater
+jira_url=
+jira_user=
+jira_password=
+jira_suite_id=
+jira_project=
+jira_project_short=
+jira_create_new_ticket=false
+test_naming_pattern={method_name}
+optimize_video_recording=false
+testrail_run_name=
+testrail_milestone=
+testrail_assignee=
+qtest_cycle_name=DailyAutomation
+qtest_suite_name=
+s3_bucket_name=
+access_key_id=
+secret_key=
+s3_local_storage=.
+s3_save_screenshots=FALSE
+hockeyapp_token=
+hockeyapp_local_storage=.
+add_new_localization=false
+add_new_localization_encoding=utf-8
+add_new_localization_path=
+add_new_localization_property_name=new_custom_messages_
+tls_keysecure_location=
+health_check_class=
+health_check_methods=
+uninstall_related_apps=false
+default_device_timezone=GMT
+default_device_time_format=24
+default_device_language=en_US
+android_screen_record_size=
+android_screen_record_bitrate=
+android_enable_bug_report=true
+ios_screen_record_quality=MEDIUM
+ios_screen_record_codec=libx264
+ios_screen_record_fps=10
+screen_record_duration=180
+video_scale=-2:720
+ignore_ssl=false
+test_run_rules=
+hub_mode=selenium
+selenium_host=http://localhost:4444/wd/hub
+
+------------- Driver capabilities -----------
+================================================
+
+2019-06-10 16:21:11 CarinaListener [ERROR] L10N bundle is not initialized successfully!
+java.lang.ClassCastException: class jdk.internal.loader.ClassLoaders$AppClassLoader cannot be cast to class java.net.URLClassLoader (jdk.internal.loader.ClassLoaders$AppClassLoader and java.net.URLClassLoader are in module java.base of loader 'bootstrap')
+	at com.qaprosoft.carina.core.foundation.utils.resources.Resources.getResourceURLs(Resources.java:77)
+	at com.qaprosoft.carina.core.foundation.utils.resources.L10N.init(L10N.java:59)
+	at com.qaprosoft.carina.core.foundation.listeners.CarinaListener.<clinit>(CarinaListener.java:108)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at java.base/java.lang.Class.newInstance(Class.java:584)
+	at org.testng.internal.ClassHelper.newInstance(ClassHelper.java:69)
+	at org.testng.internal.DefaultListenerFactory.createListener(DefaultListenerFactory.java:13)
+	at org.testng.TestRunner.initListeners(TestRunner.java:315)
+	at org.testng.TestRunner.init(TestRunner.java:274)
+	at org.testng.TestRunner.init(TestRunner.java:241)
+	at org.testng.TestRunner.<init>(TestRunner.java:167)
+	at org.testng.SuiteRunner$DefaultTestRunnerFactory.newTestRunner(SuiteRunner.java:663)
+	at org.testng.SuiteRunner.init(SuiteRunner.java:260)
+	at org.testng.SuiteRunner.<init>(SuiteRunner.java:198)
+	at org.testng.TestNG.createSuiteRunner(TestNG.java:1295)
+	at org.testng.TestNG.createSuiteRunners(TestNG.java:1273)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1128)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:73)
+	at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
+2019-06-10 16:21:11 CarinaListener [ERROR] I18N bundle is not initialized successfully!
+java.lang.ClassCastException: class jdk.internal.loader.ClassLoaders$AppClassLoader cannot be cast to class java.net.URLClassLoader (jdk.internal.loader.ClassLoaders$AppClassLoader and java.net.URLClassLoader are in module java.base of loader 'bootstrap')
+	at com.qaprosoft.carina.core.foundation.utils.resources.Resources.getResourceURLs(Resources.java:77)
+	at com.qaprosoft.carina.core.foundation.utils.resources.I18N.init(I18N.java:56)
+	at com.qaprosoft.carina.core.foundation.listeners.CarinaListener.<clinit>(CarinaListener.java:114)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at java.base/java.lang.Class.newInstance(Class.java:584)
+	at org.testng.internal.ClassHelper.newInstance(ClassHelper.java:69)
+	at org.testng.internal.DefaultListenerFactory.createListener(DefaultListenerFactory.java:13)
+	at org.testng.TestRunner.initListeners(TestRunner.java:315)
+	at org.testng.TestRunner.init(TestRunner.java:274)
+	at org.testng.TestRunner.init(TestRunner.java:241)
+	at org.testng.TestRunner.<init>(TestRunner.java:167)
+	at org.testng.SuiteRunner$DefaultTestRunnerFactory.newTestRunner(SuiteRunner.java:663)
+	at org.testng.SuiteRunner.init(SuiteRunner.java:260)
+	at org.testng.SuiteRunner.<init>(SuiteRunner.java:198)
+	at org.testng.TestNG.createSuiteRunner(TestNG.java:1295)
+	at org.testng.TestNG.createSuiteRunners(TestNG.java:1273)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1128)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:73)
+	at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
+2019-06-10 16:21:11 Messager [INFO] INFO:  TEST [carina - testOrder] STARTED at [16:21:11 2019-06-10]
+2019-06-10 16:21:13 Messager [INFO] INFO: url 'http://www.pzz.by' is being opened...
+2019-06-10 16:21:16 DriverListener [INFO] INFO: url 'http://www.pzz.by' is opened.
+2019-06-10 16:21:20 DriverListener [INFO] PASS: element 'By.className: in-cart' is clicked.
+2019-06-10 16:21:22 DriverListener [INFO] PASS: element 'By.id: s2id_street-name' is clicked.
+2019-06-10 16:21:24 DriverListener [INFO] PASS: keys cleared in element ''.
+2019-06-10 16:21:26 DriverListener [INFO] PASS: keys 'Рафиева' are sent to element ''.
+2019-06-10 16:21:28 DriverListener [INFO] PASS: element 'By.className: select2-result-label' is clicked.
+2019-06-10 16:21:30 DriverListener [INFO] PASS: element 'By.id: s2id_home-number' is clicked.
+2019-06-10 16:21:32 DriverListener [INFO] PASS: keys cleared in element 'By.id: s2id_autogen2_search'.
+2019-06-10 16:21:33 DriverListener [INFO] PASS: keys '93/3' are sent to element 'By.id: s2id_autogen2_search'.
+2019-06-10 16:21:35 DriverListener [INFO] PASS: element 'By.className: select2-result-label' is clicked.
+2019-06-10 16:21:37 DriverListener [INFO] PASS: element 'By.id: byaddress' is clicked.
+2019-06-10 16:21:40 DriverListener [INFO] PASS: element 'By.className: in-cart' is clicked.
+2019-06-10 16:21:42 DriverListener [INFO] PASS: element 'By.className: minus-item' is clicked.
+2019-06-10 16:21:44 DriverListener [INFO] PASS: element 'By.className: in-cart' is clicked.
+2019-06-10 16:21:45 DriverListener [INFO] PASS: element 'By.className: minus-item' is clicked.
+2019-06-10 16:21:47 DriverListener [INFO] PASS: element 'By.className: in-cart' is clicked.
+2019-06-10 16:21:49 DriverListener [INFO] PASS: element 'By.className: in-cart' is clicked.
+2019-06-10 16:21:51 DriverListener [INFO] PASS: element 'By.className: pzz-cart__goto' is clicked.
+2019-06-10 16:21:52 DriverListener [INFO] PASS: keys cleared in element 'By.className: i-p'.
+2019-06-10 16:21:53 DriverListener [INFO] PASS: keys 'Максим' are sent to element 'By.className: i-p'.
+2019-06-10 16:21:55 DriverListener [INFO] PASS: keys cleared in element 'By.name: phoneNumber'.
+2019-06-10 16:21:56 DriverListener [INFO] PASS: keys '447882912' are sent to element 'By.name: phoneNumber'.
+2019-06-10 16:21:57 DriverListener [INFO] PASS: keys cleared in element 'By.name: flat'.
+2019-06-10 16:21:58 DriverListener [INFO] PASS: keys '30' are sent to element 'By.name: flat'.
+2019-06-10 16:21:59 DriverListener [INFO] PASS: keys cleared in element 'By.name: entrance'.
+2019-06-10 16:22:00 DriverListener [INFO] PASS: keys '1' are sent to element 'By.name: entrance'.
+2019-06-10 16:22:01 DriverListener [INFO] PASS: keys cleared in element 'By.name: floor'.
+2019-06-10 16:22:03 DriverListener [INFO] PASS: keys '6' are sent to element 'By.name: floor'.
+2019-06-10 16:22:04 DriverListener [INFO] PASS: keys cleared in element 'By.name: intercom'.
+2019-06-10 16:22:05 DriverListener [INFO] PASS: keys '30' are sent to element 'By.name: intercom'.
+2019-06-10 16:22:06 DriverListener [INFO] PASS: element 'By.className: payment-cash-button' is clicked.
+2019-06-10 16:22:08 Messager [INFO] INFO:  TEST [carina - testOrder] PASSED at [16:22:08 2019-06-10]
+2019-06-10 16:22:08 Messager [INFO] INFO: '**************** Test execution summary ****************'.
+2019-06-10 16:22:08 Messager [INFO] RESULT #1: TEST [carina - testOrder] PASS [screenshots=file:///Users/maksimparhomenko/work/carina/./reports/qa/1560172871339/carina_-_testOrder/report.html | log=file:///Users/maksimparhomenko/work/carina/./reports/qa/1560172871339/carina_-_testOrder/test.log]
+2019-06-10 16:23:19 CarinaListener [INFO] 
+============= Test configuration =============
+url=http://www.pzz.by
+env=DEMO
+env_arg_resolver=com.qaprosoft.carina.core.foundation.utils.DefaultEnvArgResolver
+platform=*
+browser=chrome
+browser_version=*
+browser_locale=
+selenium_host=http://localhost:4444/wd/hub
+driver_event_listeners=
+max_driver_count=3
+custom_capabilities=
+app_version=
+proxy_host=
+proxy_port=
+proxy_protocols=http,https,ftp
+browsermob_proxy=false
+browsermob_host=
+browsermob_port=0
+browsermob_disabled_mitm=false
+proxy_set_to_system=false
+report_url=
+email_list=
+failure_email_list=
+track_known_issues=false
+auto_screenshot=true
+smart_screenshot=false
+implicit_timeout=10
+explicit_timeout=20
+auto_download=false
+auto_download_apps=
+custom_artifacts_folder=
+retry_interval=5
+project_report_directory=./reports/qa
+max_screen_history=10
+max_log_file_size=150
+result_sorting=true
+big_screen_width=-1
+big_screen_height=-1
+small_screen_width=90
+small_screen_height=60
+init_retry_count=0
+init_retry_interval=1
+retry_count=0
+enable_l10n=true
+l10n_encoding=ISO-8859-1
+locale=en_US
+enable_i18n=true
+language=en_US
+thread_count=1
+data_provider_thread_count=-1
+core_log_level=INFO
+core_log_packages=com.qaprosoft.carina.core
+artifacts_expiration_seconds=2592000
+log_all_json=true
+date_format=HH:mm:ss yyyy-MM-dd
+time_format=HH:mm:ss
+suite_name=
+jira_updater=com.qaprosoft.carina.core.foundation.jira.DefaultJiraUpdater
+jira_url=
+jira_user=
+jira_password=
+jira_suite_id=
+jira_project=
+jira_project_short=
+jira_create_new_ticket=false
+test_naming_pattern={method_name}
+optimize_video_recording=false
+testrail_run_name=
+testrail_milestone=
+testrail_assignee=
+qtest_cycle_name=DailyAutomation
+qtest_suite_name=
+s3_bucket_name=
+access_key_id=
+secret_key=
+s3_local_storage=.
+s3_save_screenshots=FALSE
+hockeyapp_token=
+hockeyapp_local_storage=.
+add_new_localization=false
+add_new_localization_encoding=utf-8
+add_new_localization_path=
+add_new_localization_property_name=new_custom_messages_
+tls_keysecure_location=
+health_check_class=
+health_check_methods=
+uninstall_related_apps=false
+default_device_timezone=GMT
+default_device_time_format=24
+default_device_language=en_US
+android_screen_record_size=
+android_screen_record_bitrate=
+android_enable_bug_report=true
+ios_screen_record_quality=MEDIUM
+ios_screen_record_codec=libx264
+ios_screen_record_fps=10
+screen_record_duration=180
+video_scale=-2:720
+ignore_ssl=false
+test_run_rules=
+hub_mode=selenium
+selenium_host=http://localhost:4444/wd/hub
+
+------------- Driver capabilities -----------
+================================================
+
+2019-06-10 16:23:19 CarinaListener [ERROR] L10N bundle is not initialized successfully!
+java.lang.ClassCastException: class jdk.internal.loader.ClassLoaders$AppClassLoader cannot be cast to class java.net.URLClassLoader (jdk.internal.loader.ClassLoaders$AppClassLoader and java.net.URLClassLoader are in module java.base of loader 'bootstrap')
+	at com.qaprosoft.carina.core.foundation.utils.resources.Resources.getResourceURLs(Resources.java:77)
+	at com.qaprosoft.carina.core.foundation.utils.resources.L10N.init(L10N.java:59)
+	at com.qaprosoft.carina.core.foundation.listeners.CarinaListener.<clinit>(CarinaListener.java:108)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at java.base/java.lang.Class.newInstance(Class.java:584)
+	at org.testng.internal.ClassHelper.newInstance(ClassHelper.java:69)
+	at org.testng.internal.DefaultListenerFactory.createListener(DefaultListenerFactory.java:13)
+	at org.testng.TestRunner.initListeners(TestRunner.java:315)
+	at org.testng.TestRunner.init(TestRunner.java:274)
+	at org.testng.TestRunner.init(TestRunner.java:241)
+	at org.testng.TestRunner.<init>(TestRunner.java:167)
+	at org.testng.SuiteRunner$DefaultTestRunnerFactory.newTestRunner(SuiteRunner.java:663)
+	at org.testng.SuiteRunner.init(SuiteRunner.java:260)
+	at org.testng.SuiteRunner.<init>(SuiteRunner.java:198)
+	at org.testng.TestNG.createSuiteRunner(TestNG.java:1295)
+	at org.testng.TestNG.createSuiteRunners(TestNG.java:1273)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1128)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:73)
+	at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
+2019-06-10 16:23:19 CarinaListener [ERROR] I18N bundle is not initialized successfully!
+java.lang.ClassCastException: class jdk.internal.loader.ClassLoaders$AppClassLoader cannot be cast to class java.net.URLClassLoader (jdk.internal.loader.ClassLoaders$AppClassLoader and java.net.URLClassLoader are in module java.base of loader 'bootstrap')
+	at com.qaprosoft.carina.core.foundation.utils.resources.Resources.getResourceURLs(Resources.java:77)
+	at com.qaprosoft.carina.core.foundation.utils.resources.I18N.init(I18N.java:56)
+	at com.qaprosoft.carina.core.foundation.listeners.CarinaListener.<clinit>(CarinaListener.java:114)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at java.base/java.lang.Class.newInstance(Class.java:584)
+	at org.testng.internal.ClassHelper.newInstance(ClassHelper.java:69)
+	at org.testng.internal.DefaultListenerFactory.createListener(DefaultListenerFactory.java:13)
+	at org.testng.TestRunner.initListeners(TestRunner.java:315)
+	at org.testng.TestRunner.init(TestRunner.java:274)
+	at org.testng.TestRunner.init(TestRunner.java:241)
+	at org.testng.TestRunner.<init>(TestRunner.java:167)
+	at org.testng.SuiteRunner$DefaultTestRunnerFactory.newTestRunner(SuiteRunner.java:663)
+	at org.testng.SuiteRunner.init(SuiteRunner.java:260)
+	at org.testng.SuiteRunner.<init>(SuiteRunner.java:198)
+	at org.testng.TestNG.createSuiteRunner(TestNG.java:1295)
+	at org.testng.TestNG.createSuiteRunners(TestNG.java:1273)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1128)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:73)
+	at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
+2019-06-10 16:23:19 Messager [INFO] INFO:  TEST [carina - testOrder] STARTED at [16:23:19 2019-06-10]
+2019-06-10 16:23:21 Messager [INFO] INFO: url 'http://www.pzz.by' is being opened...
+2019-06-10 16:23:24 DriverListener [INFO] INFO: url 'http://www.pzz.by' is opened.
+2019-06-10 16:23:28 DriverListener [INFO] PASS: element 'By.className: in-cart' is clicked.
+2019-06-10 16:23:30 DriverListener [INFO] PASS: element 'By.id: s2id_street-name' is clicked.
+2019-06-10 16:23:32 DriverListener [INFO] PASS: keys cleared in element ''.
+2019-06-10 16:23:35 DriverListener [INFO] PASS: keys 'Рафиева' are sent to element ''.
+2019-06-10 16:23:36 DriverListener [INFO] PASS: element 'By.className: select2-result-label' is clicked.
+2019-06-10 16:23:38 DriverListener [INFO] PASS: element 'By.id: s2id_home-number' is clicked.
+2019-06-10 16:23:40 DriverListener [INFO] PASS: keys cleared in element 'By.id: s2id_autogen2_search'.
+2019-06-10 16:23:41 DriverListener [INFO] PASS: keys '93/3' are sent to element 'By.id: s2id_autogen2_search'.
+2019-06-10 16:23:43 DriverListener [INFO] PASS: element 'By.className: select2-result-label' is clicked.
+2019-06-10 16:23:45 DriverListener [INFO] PASS: element 'By.id: byaddress' is clicked.
+2019-06-10 16:23:48 DriverListener [INFO] PASS: element 'By.className: in-cart' is clicked.
+2019-06-10 16:23:50 DriverListener [INFO] PASS: element 'By.className: minus-item' is clicked.
+2019-06-10 16:23:52 DriverListener [INFO] PASS: element 'By.className: in-cart' is clicked.
+2019-06-10 16:23:53 DriverListener [INFO] PASS: element 'By.className: minus-item' is clicked.
+2019-06-10 16:23:55 DriverListener [INFO] PASS: element 'By.className: in-cart' is clicked.
+2019-06-10 16:23:57 DriverListener [INFO] PASS: element 'By.className: in-cart' is clicked.
+2019-06-10 16:23:59 DriverListener [INFO] PASS: element 'By.className: pzz-cart__goto' is clicked.
+2019-06-10 16:24:00 DriverListener [INFO] PASS: keys cleared in element 'By.className: i-p'.
+2019-06-10 16:24:02 DriverListener [INFO] PASS: keys 'Максим' are sent to element 'By.className: i-p'.
+2019-06-10 16:24:03 DriverListener [INFO] PASS: keys cleared in element 'By.name: phoneNumber'.
+2019-06-10 16:24:04 DriverListener [INFO] PASS: keys '447882912' are sent to element 'By.name: phoneNumber'.
+2019-06-10 16:24:05 DriverListener [INFO] PASS: keys cleared in element 'By.name: flat'.
+2019-06-10 16:24:06 DriverListener [INFO] PASS: keys '30' are sent to element 'By.name: flat'.
+2019-06-10 16:24:07 DriverListener [INFO] PASS: keys cleared in element 'By.name: entrance'.
+2019-06-10 16:24:09 DriverListener [INFO] PASS: keys '1' are sent to element 'By.name: entrance'.
+2019-06-10 16:24:10 DriverListener [INFO] PASS: keys cleared in element 'By.name: floor'.
+2019-06-10 16:24:11 DriverListener [INFO] PASS: keys '6' are sent to element 'By.name: floor'.
+2019-06-10 16:24:12 DriverListener [INFO] PASS: keys cleared in element 'By.name: intercom'.
+2019-06-10 16:24:13 DriverListener [INFO] PASS: keys '30' are sent to element 'By.name: intercom'.
+2019-06-10 16:24:15 DriverListener [INFO] PASS: element 'By.className: payment-charge-button' is clicked.
+2019-06-10 16:24:16 Messager [INFO] INFO:  TEST [carina - testOrder] PASSED at [16:24:16 2019-06-10]
+2019-06-10 16:24:16 Messager [INFO] INFO: '**************** Test execution summary ****************'.
+2019-06-10 16:24:16 Messager [INFO] RESULT #1: TEST [carina - testOrder] PASS [screenshots=file:///Users/maksimparhomenko/work/carina/./reports/qa/1560172999744/carina_-_testOrder/report.html | log=file:///Users/maksimparhomenko/work/carina/./reports/qa/1560172999744/carina_-_testOrder/test.log]
+2019-06-10 16:33:47 CarinaListener [INFO] 
+============= Test configuration =============
+url=http://www.pzz.by
+env=DEMO
+env_arg_resolver=com.qaprosoft.carina.core.foundation.utils.DefaultEnvArgResolver
+platform=*
+browser=chrome
+browser_version=*
+browser_locale=
+selenium_host=http://localhost:4444/wd/hub
+driver_event_listeners=
+max_driver_count=3
+custom_capabilities=
+app_version=
+proxy_host=
+proxy_port=
+proxy_protocols=http,https,ftp
+browsermob_proxy=false
+browsermob_host=
+browsermob_port=0
+browsermob_disabled_mitm=false
+proxy_set_to_system=false
+report_url=
+email_list=
+failure_email_list=
+track_known_issues=false
+auto_screenshot=true
+smart_screenshot=false
+implicit_timeout=10
+explicit_timeout=20
+auto_download=false
+auto_download_apps=
+custom_artifacts_folder=
+retry_interval=5
+project_report_directory=./reports/qa
+max_screen_history=10
+max_log_file_size=150
+result_sorting=true
+big_screen_width=-1
+big_screen_height=-1
+small_screen_width=90
+small_screen_height=60
+init_retry_count=0
+init_retry_interval=1
+retry_count=0
+enable_l10n=true
+l10n_encoding=ISO-8859-1
+locale=en_US
+enable_i18n=true
+language=en_US
+thread_count=1
+data_provider_thread_count=-1
+core_log_level=INFO
+core_log_packages=com.qaprosoft.carina.core
+artifacts_expiration_seconds=2592000
+log_all_json=true
+date_format=HH:mm:ss yyyy-MM-dd
+time_format=HH:mm:ss
+suite_name=
+jira_updater=com.qaprosoft.carina.core.foundation.jira.DefaultJiraUpdater
+jira_url=
+jira_user=
+jira_password=
+jira_suite_id=
+jira_project=
+jira_project_short=
+jira_create_new_ticket=false
+test_naming_pattern={method_name}
+optimize_video_recording=false
+testrail_run_name=
+testrail_milestone=
+testrail_assignee=
+qtest_cycle_name=DailyAutomation
+qtest_suite_name=
+s3_bucket_name=
+access_key_id=
+secret_key=
+s3_local_storage=.
+s3_save_screenshots=FALSE
+hockeyapp_token=
+hockeyapp_local_storage=.
+add_new_localization=false
+add_new_localization_encoding=utf-8
+add_new_localization_path=
+add_new_localization_property_name=new_custom_messages_
+tls_keysecure_location=
+health_check_class=
+health_check_methods=
+uninstall_related_apps=false
+default_device_timezone=GMT
+default_device_time_format=24
+default_device_language=en_US
+android_screen_record_size=
+android_screen_record_bitrate=
+android_enable_bug_report=true
+ios_screen_record_quality=MEDIUM
+ios_screen_record_codec=libx264
+ios_screen_record_fps=10
+screen_record_duration=180
+video_scale=-2:720
+ignore_ssl=false
+test_run_rules=
+hub_mode=selenium
+selenium_host=http://localhost:4444/wd/hub
+
+------------- Driver capabilities -----------
+================================================
+
+2019-06-10 16:33:47 CarinaListener [ERROR] L10N bundle is not initialized successfully!
+java.lang.ClassCastException: class jdk.internal.loader.ClassLoaders$AppClassLoader cannot be cast to class java.net.URLClassLoader (jdk.internal.loader.ClassLoaders$AppClassLoader and java.net.URLClassLoader are in module java.base of loader 'bootstrap')
+	at com.qaprosoft.carina.core.foundation.utils.resources.Resources.getResourceURLs(Resources.java:77)
+	at com.qaprosoft.carina.core.foundation.utils.resources.L10N.init(L10N.java:59)
+	at com.qaprosoft.carina.core.foundation.listeners.CarinaListener.<clinit>(CarinaListener.java:108)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at java.base/java.lang.Class.newInstance(Class.java:584)
+	at org.testng.internal.ClassHelper.newInstance(ClassHelper.java:69)
+	at org.testng.internal.DefaultListenerFactory.createListener(DefaultListenerFactory.java:13)
+	at org.testng.TestRunner.initListeners(TestRunner.java:315)
+	at org.testng.TestRunner.init(TestRunner.java:274)
+	at org.testng.TestRunner.init(TestRunner.java:241)
+	at org.testng.TestRunner.<init>(TestRunner.java:167)
+	at org.testng.SuiteRunner$DefaultTestRunnerFactory.newTestRunner(SuiteRunner.java:663)
+	at org.testng.SuiteRunner.init(SuiteRunner.java:260)
+	at org.testng.SuiteRunner.<init>(SuiteRunner.java:198)
+	at org.testng.TestNG.createSuiteRunner(TestNG.java:1295)
+	at org.testng.TestNG.createSuiteRunners(TestNG.java:1273)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1128)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:73)
+	at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
+2019-06-10 16:33:47 CarinaListener [ERROR] I18N bundle is not initialized successfully!
+java.lang.ClassCastException: class jdk.internal.loader.ClassLoaders$AppClassLoader cannot be cast to class java.net.URLClassLoader (jdk.internal.loader.ClassLoaders$AppClassLoader and java.net.URLClassLoader are in module java.base of loader 'bootstrap')
+	at com.qaprosoft.carina.core.foundation.utils.resources.Resources.getResourceURLs(Resources.java:77)
+	at com.qaprosoft.carina.core.foundation.utils.resources.I18N.init(I18N.java:56)
+	at com.qaprosoft.carina.core.foundation.listeners.CarinaListener.<clinit>(CarinaListener.java:114)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at java.base/java.lang.Class.newInstance(Class.java:584)
+	at org.testng.internal.ClassHelper.newInstance(ClassHelper.java:69)
+	at org.testng.internal.DefaultListenerFactory.createListener(DefaultListenerFactory.java:13)
+	at org.testng.TestRunner.initListeners(TestRunner.java:315)
+	at org.testng.TestRunner.init(TestRunner.java:274)
+	at org.testng.TestRunner.init(TestRunner.java:241)
+	at org.testng.TestRunner.<init>(TestRunner.java:167)
+	at org.testng.SuiteRunner$DefaultTestRunnerFactory.newTestRunner(SuiteRunner.java:663)
+	at org.testng.SuiteRunner.init(SuiteRunner.java:260)
+	at org.testng.SuiteRunner.<init>(SuiteRunner.java:198)
+	at org.testng.TestNG.createSuiteRunner(TestNG.java:1295)
+	at org.testng.TestNG.createSuiteRunners(TestNG.java:1273)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1128)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:73)
+	at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
+2019-06-10 16:33:47 Messager [INFO] INFO:  TEST [carina - testCreateUser] STARTED at [16:33:47 2019-06-10]
+2019-06-10 16:33:47 AbstractApiMethod [INFO] Base properties loaded: api/users/user.properties
+2019-06-10 16:33:49 AbstractApiMethod [INFO] Request method:	POST
+Request path:	https://jsonplaceholder.typicode.com/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Body:
+[
+  {
+    "id": 1,
+    "name": "Leanne Graham",
+    "username": "eggkhldl",
+    "email": "Sincere@april.biz",
+    "address": {
+      "street": "Kulas Light",
+      "suite": "Apt. 556",
+      "city": "Gwenborough",
+      "zipcode": "92998-3874",
+      "geo": {
+        "lat": "-37.3159",
+        "lng": "81.1496"
+      }
+    },
+    "phone": "1-770-736-8031 x56442",
+    "website": "hildegard.org",
+    "company": {
+      "name": "flltnplo",
+      "catchPhrase": "Multi-layered client-server neural-net",
+      "bs": "harness real-time e-markets"
+    }
+  }
+]
+HTTP/1.1 201 Created
+Date: Mon, 10 Jun 2019 13:34:10 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 573
+Connection: keep-alive
+Set-Cookie: __cfduid=d85d4db1e4140af2b308afdbee561c5c31560173649; expires=Tue, 09-Jun-20 13:34:09 GMT; path=/; domain=.typicode.com; HttpOnly
+X-Powered-By: Express
+Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+Access-Control-Allow-Credentials: true
+Cache-Control: no-cache
+Pragma: no-cache
+Expires: -1
+Access-Control-Expose-Headers: Location
+Location: http://jsonplaceholder.typicode.com/users/11
+X-Content-Type-Options: nosniff
+Etag: W/"23d-lNMQlcZX7COy2lSaUyMznpdBhZU"
+Via: 1.1 vegur
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Server: cloudflare
+CF-RAY: 4e4bb89f2a76b869-WAW
+
+{
+  "0": {
+    "id": 1,
+    "name": "Leanne Graham",
+    "username": "eggkhldl",
+    "email": "Sincere@april.biz",
+    "address": {
+      "street": "Kulas Light",
+      "suite": "Apt. 556",
+      "city": "Gwenborough",
+      "zipcode": "92998-3874",
+      "geo": {
+        "lat": "-37.3159",
+        "lng": "81.1496"
+      }
+    },
+    "phone": "1-770-736-8031 x56442",
+    "website": "hildegard.org",
+    "company": {
+      "name": "flltnplo",
+      "catchPhrase": "Multi-layered client-server neural-net",
+      "bs": "harness real-time e-markets"
+    }
+  },
+  "id": 11
+}
+
+2019-06-10 16:33:49 Messager [INFO] INFO:  TEST [carina - testCreateUser] PASSED at [16:33:49 2019-06-10]
+2019-06-10 16:33:49 Messager [INFO] INFO:  TEST [carina - testCreateUserMissingSomeFields] STARTED at [16:33:49 2019-06-10]
+2019-06-10 16:33:49 AbstractApiMethod [INFO] Base properties loaded: api/users/user.properties
+2019-06-10 16:33:49 AbstractApiMethod [INFO] Request method:	POST
+Request path:	https://jsonplaceholder.typicode.com/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Body:
+[
+  {
+    "id": 1,
+    
+    
+    "email": "Sincere@april.biz",
+    "address": {
+      "street": "Kulas Light",
+      "suite": "Apt. 556",
+      "city": "Gwenborough",
+      "zipcode": "92998-3874",
+      "geo": {
+        "lat": "-37.3159",
+        "lng": "81.1496"
+      }
+    },
+    "phone": "1-770-736-8031 x56442",
+    "website": "hildegard.org",
+    "company": {
+      "name": "emhoosrs",
+      "catchPhrase": "Multi-layered client-server neural-net",
+      "bs": "harness real-time e-markets"
+    }
+  }
+]
+HTTP/1.1 201 Created
+Date: Mon, 10 Jun 2019 13:34:10 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 516
+Connection: keep-alive
+Set-Cookie: __cfduid=d340ae641e88f78b9d8f541556b77e9951560173650; expires=Tue, 09-Jun-20 13:34:10 GMT; path=/; domain=.typicode.com; HttpOnly
+X-Powered-By: Express
+Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+Access-Control-Allow-Credentials: true
+Cache-Control: no-cache
+Pragma: no-cache
+Expires: -1
+Access-Control-Expose-Headers: Location
+Location: http://jsonplaceholder.typicode.com/users/11
+X-Content-Type-Options: nosniff
+Etag: W/"204-py/rNxwni/812CxZuw/+Qa7IFkg"
+Via: 1.1 vegur
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Server: cloudflare
+CF-RAY: 4e4bb8a33d8ecc7f-WAW
+
+{
+  "0": {
+    "id": 1,
+    "email": "Sincere@april.biz",
+    "address": {
+      "street": "Kulas Light",
+      "suite": "Apt. 556",
+      "city": "Gwenborough",
+      "zipcode": "92998-3874",
+      "geo": {
+        "lat": "-37.3159",
+        "lng": "81.1496"
+      }
+    },
+    "phone": "1-770-736-8031 x56442",
+    "website": "hildegard.org",
+    "company": {
+      "name": "emhoosrs",
+      "catchPhrase": "Multi-layered client-server neural-net",
+      "bs": "harness real-time e-markets"
+    }
+  },
+  "id": 11
+}
+
+2019-06-10 16:33:49 Messager [INFO] INFO:  TEST [carina - testCreateUserMissingSomeFields] PASSED at [16:33:49 2019-06-10]
+2019-06-10 16:33:49 Messager [INFO] INFO:  TEST [carina - testDeleteUsers] STARTED at [16:33:49 2019-06-10]
+2019-06-10 16:33:49 AbstractApiMethod [INFO] Base properties loaded: api/users/user.properties
+2019-06-10 16:33:50 AbstractApiMethod [INFO] Request method:	DELETE
+Request path:	https://jsonplaceholder.typicode.com/users/1
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Body:
+[
+  {
+    "id": 1,
+    "name": "Leanne Graham",
+    "username": "lmejinnq",
+    "email": "Sincere@april.biz",
+    "address": {
+      "street": "Kulas Light",
+      "suite": "Apt. 556",
+      "city": "Gwenborough",
+      "zipcode": "92998-3874",
+      "geo": {
+        "lat": "-37.3159",
+        "lng": "81.1496"
+      }
+    },
+    "phone": "1-770-736-8031 x56442",
+    "website": "hildegard.org",
+    "company": {
+      "name": "imijbihh",
+      "catchPhrase": "Multi-layered client-server neural-net",
+      "bs": "harness real-time e-markets"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Leanne Graham",
+    "username": "lmejinnq",
+    "email": "Sincere@april.biz",
+    "address": {
+      "street": "Kulas Light",
+      "suite": "Apt. 556",
+      "city": "Gwenborough",
+      "zipcode": "92998-3874",
+      "geo": {
+        "lat": "-37.3159",
+        "lng": "81.1496"
+      }
+    },
+    "phone": "1-770-736-8031 x56442",
+    "website": "hildegard.org",
+    "company": {
+      "name": "imijbihh",
+      "catchPhrase": "Multi-layered client-server neural-net",
+      "bs": "harness real-time e-markets"
+    }
+  }
+]
+HTTP/1.1 200 OK
+Date: Mon, 10 Jun 2019 13:34:11 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 2
+Connection: keep-alive
+Set-Cookie: __cfduid=d4256ad23bd6fb386846704613af724991560173650; expires=Tue, 09-Jun-20 13:34:10 GMT; path=/; domain=.typicode.com; HttpOnly
+X-Powered-By: Express
+Vary: Origin, Accept-Encoding
+Access-Control-Allow-Credentials: true
+Cache-Control: no-cache
+Pragma: no-cache
+Expires: -1
+X-Content-Type-Options: nosniff
+Etag: W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"
+Via: 1.1 vegur
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Server: cloudflare
+CF-RAY: 4e4bb8a5bb34b839-WAW
+
+{
+    
+}
+
+2019-06-10 16:33:50 Messager [INFO] INFO:  TEST [carina - testDeleteUsers] PASSED at [16:33:50 2019-06-10]
+2019-06-10 16:33:50 Messager [INFO] INFO:  TEST [carina - testGetUsers] STARTED at [16:33:50 2019-06-10]
+2019-06-10 16:33:50 AbstractApiMethod [INFO] Request method:	GET
+Request path:	https://jsonplaceholder.typicode.com/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Mon, 10 Jun 2019 13:34:11 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: __cfduid=dbdd31b166e8140d765e1846501ebe4901560173651; expires=Tue, 09-Jun-20 13:34:11 GMT; path=/; domain=.typicode.com; HttpOnly
+X-Powered-By: Express
+Vary: Origin, Accept-Encoding
+Access-Control-Allow-Credentials: true
+Cache-Control: public, max-age=14400
+Pragma: no-cache
+Expires: Mon, 10 Jun 2019 17:34:11 GMT
+X-Content-Type-Options: nosniff
+Etag: W/"160d-1eMSsxeJRfnVLRBmYJSbCiJZ1qQ"
+Content-Encoding: gzip
+Via: 1.1 vegur
+CF-Cache-Status: HIT
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Server: cloudflare
+CF-RAY: 4e4bb8a85caeb869-WAW
+
+[
+  {
+    "id": 1,
+    "name": "Leanne Graham",
+    "username": "Bret",
+    "email": "Sincere@april.biz",
+    "address": {
+      "street": "Kulas Light",
+      "suite": "Apt. 556",
+      "city": "Gwenborough",
+      "zipcode": "92998-3874",
+      "geo": {
+        "lat": "-37.3159",
+        "lng": "81.1496"
+      }
+    },
+    "phone": "1-770-736-8031 x56442",
+    "website": "hildegard.org",
+    "company": {
+      "name": "Romaguera-Crona",
+      "catchPhrase": "Multi-layered client-server neural-net",
+      "bs": "harness real-time e-markets"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Ervin Howell",
+    "username": "Antonette",
+    "email": "Shanna@melissa.tv",
+    "address": {
+      "street": "Victor Plains",
+      "suite": "Suite 879",
+      "city": "Wisokyburgh",
+      "zipcode": "90566-7771",
+      "geo": {
+        "lat": "-43.9509",
+        "lng": "-34.4618"
+      }
+    },
+    "phone": "010-692-6593 x09125",
+    "website": "anastasia.net",
+    "company": {
+      "name": "Deckow-Crist",
+      "catchPhrase": "Proactive didactic contingency",
+      "bs": "synergize scalable supply-chains"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Clementine Bauch",
+    "username": "Samantha",
+    "email": "Nathan@yesenia.net",
+    "address": {
+      "street": "Douglas Extension",
+      "suite": "Suite 847",
+      "city": "McKenziehaven",
+      "zipcode": "59590-4157",
+      "geo": {
+        "lat": "-68.6102",
+        "lng": "-47.0653"
+      }
+    },
+    "phone": "1-463-123-4447",
+    "website": "ramiro.info",
+    "company": {
+      "name": "Romaguera-Jacobson",
+      "catchPhrase": "Face to face bifurcated interface",
+      "bs": "e-enable strategic applications"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Patricia Lebsack",
+    "username": "Karianne",
+    "email": "Julianne.OConner@kory.org",
+    "address": {
+      "street": "Hoeger Mall",
+      "suite": "Apt. 692",
+      "city": "South Elvis",
+      "zipcode": "53919-4257",
+      "geo": {
+        "lat": "29.4572",
+        "lng": "-164.2990"
+      }
+    },
+    "phone": "493-170-9623 x156",
+    "website": "kale.biz",
+    "company": {
+      "name": "Robel-Corkery",
+      "catchPhrase": "Multi-tiered zero tolerance productivity",
+      "bs": "transition cutting-edge web services"
+    }
+  },
+  {
+    "id": 5,
+    "name": "Chelsey Dietrich",
+    "username": "Kamren",
+    "email": "Lucio_Hettinger@annie.ca",
+    "address": {
+      "street": "Skiles Walks",
+      "suite": "Suite 351",
+      "city": "Roscoeview",
+      "zipcode": "33263",
+      "geo": {
+        "lat": "-31.8129",
+        "lng": "62.5342"
+      }
+    },
+    "phone": "(254)954-1289",
+    "website": "demarco.info",
+    "company": {
+      "name": "Keebler LLC",
+      "catchPhrase": "User-centric fault-tolerant solution",
+      "bs": "revolutionize end-to-end systems"
+    }
+  },
+  {
+    "id": 6,
+    "name": "Mrs. Dennis Schulist",
+    "username": "Leopoldo_Corkery",
+    "email": "Karley_Dach@jasper.info",
+    "address": {
+      "street": "Norberto Crossing",
+      "suite": "Apt. 950",
+      "city": "South Christy",
+      "zipcode": "23505-1337",
+      "geo": {
+        "lat": "-71.4197",
+        "lng": "71.7478"
+      }
+    },
+    "phone": "1-477-935-8478 x6430",
+    "website": "ola.org",
+    "company": {
+      "name": "Considine-Lockman",
+      "catchPhrase": "Synchronised bottom-line interface",
+      "bs": "e-enable innovative applications"
+    }
+  },
+  {
+    "id": 7,
+    "name": "Kurtis Weissnat",
+    "username": "Elwyn.Skiles",
+    "email": "Telly.Hoeger@billy.biz",
+    "address": {
+      "street": "Rex Trail",
+      "suite": "Suite 280",
+      "city": "Howemouth",
+      "zipcode": "58804-1099",
+      "geo": {
+        "lat": "24.8918",
+        "lng": "21.8984"
+      }
+    },
+    "phone": "210.067.6132",
+    "website": "elvis.io",
+    "company": {
+      "name": "Johns Group",
+      "catchPhrase": "Configurable multimedia task-force",
+      "bs": "generate enterprise e-tailers"
+    }
+  },
+  {
+    "id": 8,
+    "name": "Nicholas Runolfsdottir V",
+    "username": "Maxime_Nienow",
+    "email": "Sherwood@rosamond.me",
+    "address": {
+      "street": "Ellsworth Summit",
+      "suite": "Suite 729",
+      "city": "Aliyaview",
+      "zipcode": "45169",
+      "geo": {
+        "lat": "-14.3990",
+        "lng": "-120.7677"
+      }
+    },
+    "phone": "586.493.6943 x140",
+    "website": "jacynthe.com",
+    "company": {
+      "name": "Abernathy Group",
+      "catchPhrase": "Implemented secondary concept",
+      "bs": "e-enable extensible e-tailers"
+    }
+  },
+  {
+    "id": 9,
+    "name": "Glenna Reichert",
+    "username": "Delphine",
+    "email": "Chaim_McDermott@dana.io",
+    "address": {
+      "street": "Dayna Park",
+      "suite": "Suite 449",
+      "city": "Bartholomebury",
+      "zipcode": "76495-3109",
+      "geo": {
+        "lat": "24.6463",
+        "lng": "-168.8889"
+      }
+    },
+    "phone": "(775)976-6794 x41206",
+    "website": "conrad.com",
+    "company": {
+      "name": "Yost and Sons",
+      "catchPhrase": "Switchable contextually-based project",
+      "bs": "aggregate real-time technologies"
+    }
+  },
+  {
+    "id": 10,
+    "name": "Clementina DuBuque",
+    "username": "Moriah.Stanton",
+    "email": "Rey.Padberg@karina.biz",
+    "address": {
+      "street": "Kattie Turnpike",
+      "suite": "Suite 198",
+      "city": "Lebsackbury",
+      "zipcode": "31428-2261",
+      "geo": {
+        "lat": "-38.2386",
+        "lng": "57.2232"
+      }
+    },
+    "phone": "024-648-3804",
+    "website": "ambrose.net",
+    "company": {
+      "name": "Hoeger LLC",
+      "catchPhrase": "Centralized empowering task-force",
+      "bs": "target end-to-end models"
+    }
+  }
+]
+
+2019-06-10 16:33:50 JsonValidator [INFO] JSON schema of version below or equal to draft-04 was detected
+2019-06-10 16:33:51 JsonValidator [INFO] Validation against Json schema successfully passed
+2019-06-10 16:33:51 Messager [INFO] INFO:  TEST [carina - testGetUsers] PASSED at [16:33:51 2019-06-10]
+2019-06-10 16:33:51 Messager [INFO] INFO: '**************** Test execution summary ****************'.
+2019-06-10 16:33:51 Messager [INFO] RESULT #1: TEST [carina - testCreateUser] PASS [log=file:///Users/maksimparhomenko/work/carina/./reports/qa/1560173627040/carina_-_testCreateUser/test.log]
+2019-06-10 16:33:51 Messager [INFO] RESULT #2: TEST [carina - testCreateUserMissingSomeFields] PASS [log=file:///Users/maksimparhomenko/work/carina/./reports/qa/1560173627040/carina_-_testCreateUserMissingSomeFields/test.log]
+2019-06-10 16:33:51 Messager [INFO] RESULT #3: TEST [carina - testDeleteUsers] PASS [log=file:///Users/maksimparhomenko/work/carina/./reports/qa/1560173627040/carina_-_testDeleteUsers/test.log]
+2019-06-10 16:33:51 Messager [INFO] RESULT #4: TEST [carina - testGetUsers] PASS [log=file:///Users/maksimparhomenko/work/carina/./reports/qa/1560173627040/carina_-_testGetUsers/test.log]
+2019-06-10 21:07:55 CarinaListener [INFO] 
+============= Test configuration =============
+url=http://www.pzz.by
+env=DEMO
+env_arg_resolver=com.qaprosoft.carina.core.foundation.utils.DefaultEnvArgResolver
+platform=*
+browser=chrome
+browser_version=*
+browser_locale=
+selenium_host=http://localhost:4444/wd/hub
+driver_event_listeners=
+max_driver_count=3
+custom_capabilities=
+app_version=
+proxy_host=
+proxy_port=
+proxy_protocols=http,https,ftp
+browsermob_proxy=false
+browsermob_host=
+browsermob_port=0
+browsermob_disabled_mitm=false
+proxy_set_to_system=false
+report_url=
+email_list=
+failure_email_list=
+track_known_issues=false
+auto_screenshot=true
+smart_screenshot=false
+implicit_timeout=10
+explicit_timeout=20
+auto_download=false
+auto_download_apps=
+custom_artifacts_folder=
+retry_interval=5
+project_report_directory=./reports/qa
+max_screen_history=10
+max_log_file_size=150
+result_sorting=true
+big_screen_width=-1
+big_screen_height=-1
+small_screen_width=90
+small_screen_height=60
+init_retry_count=0
+init_retry_interval=1
+retry_count=0
+enable_l10n=true
+l10n_encoding=ISO-8859-1
+locale=en_US
+enable_i18n=true
+language=en_US
+thread_count=1
+data_provider_thread_count=-1
+core_log_level=INFO
+core_log_packages=com.qaprosoft.carina.core
+artifacts_expiration_seconds=2592000
+log_all_json=true
+date_format=HH:mm:ss yyyy-MM-dd
+time_format=HH:mm:ss
+suite_name=
+jira_updater=com.qaprosoft.carina.core.foundation.jira.DefaultJiraUpdater
+jira_url=
+jira_user=
+jira_password=
+jira_suite_id=
+jira_project=
+jira_project_short=
+jira_create_new_ticket=false
+test_naming_pattern={method_name}
+optimize_video_recording=false
+testrail_run_name=
+testrail_milestone=
+testrail_assignee=
+qtest_cycle_name=DailyAutomation
+qtest_suite_name=
+s3_bucket_name=
+access_key_id=
+secret_key=
+s3_local_storage=.
+s3_save_screenshots=FALSE
+hockeyapp_token=
+hockeyapp_local_storage=.
+add_new_localization=false
+add_new_localization_encoding=utf-8
+add_new_localization_path=
+add_new_localization_property_name=new_custom_messages_
+tls_keysecure_location=
+health_check_class=
+health_check_methods=
+uninstall_related_apps=false
+default_device_timezone=GMT
+default_device_time_format=24
+default_device_language=en_US
+android_screen_record_size=
+android_screen_record_bitrate=
+android_enable_bug_report=true
+ios_screen_record_quality=MEDIUM
+ios_screen_record_codec=libx264
+ios_screen_record_fps=10
+screen_record_duration=180
+video_scale=-2:720
+ignore_ssl=false
+test_run_rules=
+hub_mode=selenium
+selenium_host=http://localhost:4444/wd/hub
+
+------------- Driver capabilities -----------
+================================================
+
+2019-06-10 21:07:55 CarinaListener [ERROR] L10N bundle is not initialized successfully!
+java.lang.ClassCastException: class jdk.internal.loader.ClassLoaders$AppClassLoader cannot be cast to class java.net.URLClassLoader (jdk.internal.loader.ClassLoaders$AppClassLoader and java.net.URLClassLoader are in module java.base of loader 'bootstrap')
+	at com.qaprosoft.carina.core.foundation.utils.resources.Resources.getResourceURLs(Resources.java:77)
+	at com.qaprosoft.carina.core.foundation.utils.resources.L10N.init(L10N.java:59)
+	at com.qaprosoft.carina.core.foundation.listeners.CarinaListener.<clinit>(CarinaListener.java:108)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at java.base/java.lang.Class.newInstance(Class.java:584)
+	at org.testng.internal.ClassHelper.newInstance(ClassHelper.java:69)
+	at org.testng.internal.DefaultListenerFactory.createListener(DefaultListenerFactory.java:13)
+	at org.testng.TestRunner.initListeners(TestRunner.java:315)
+	at org.testng.TestRunner.init(TestRunner.java:274)
+	at org.testng.TestRunner.init(TestRunner.java:241)
+	at org.testng.TestRunner.<init>(TestRunner.java:167)
+	at org.testng.SuiteRunner$DefaultTestRunnerFactory.newTestRunner(SuiteRunner.java:663)
+	at org.testng.SuiteRunner.init(SuiteRunner.java:260)
+	at org.testng.SuiteRunner.<init>(SuiteRunner.java:198)
+	at org.testng.TestNG.createSuiteRunner(TestNG.java:1295)
+	at org.testng.TestNG.createSuiteRunners(TestNG.java:1273)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1128)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:73)
+	at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
+2019-06-10 21:07:55 CarinaListener [ERROR] I18N bundle is not initialized successfully!
+java.lang.ClassCastException: class jdk.internal.loader.ClassLoaders$AppClassLoader cannot be cast to class java.net.URLClassLoader (jdk.internal.loader.ClassLoaders$AppClassLoader and java.net.URLClassLoader are in module java.base of loader 'bootstrap')
+	at com.qaprosoft.carina.core.foundation.utils.resources.Resources.getResourceURLs(Resources.java:77)
+	at com.qaprosoft.carina.core.foundation.utils.resources.I18N.init(I18N.java:56)
+	at com.qaprosoft.carina.core.foundation.listeners.CarinaListener.<clinit>(CarinaListener.java:114)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at java.base/java.lang.Class.newInstance(Class.java:584)
+	at org.testng.internal.ClassHelper.newInstance(ClassHelper.java:69)
+	at org.testng.internal.DefaultListenerFactory.createListener(DefaultListenerFactory.java:13)
+	at org.testng.TestRunner.initListeners(TestRunner.java:315)
+	at org.testng.TestRunner.init(TestRunner.java:274)
+	at org.testng.TestRunner.init(TestRunner.java:241)
+	at org.testng.TestRunner.<init>(TestRunner.java:167)
+	at org.testng.SuiteRunner$DefaultTestRunnerFactory.newTestRunner(SuiteRunner.java:663)
+	at org.testng.SuiteRunner.init(SuiteRunner.java:260)
+	at org.testng.SuiteRunner.<init>(SuiteRunner.java:198)
+	at org.testng.TestNG.createSuiteRunner(TestNG.java:1295)
+	at org.testng.TestNG.createSuiteRunners(TestNG.java:1273)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1128)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:73)
+	at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
+2019-06-10 21:07:56 Messager [INFO] INFO:  TEST [carina - testOrder] STARTED at [21:07:56 2019-06-10]
+2019-06-10 21:07:58 Messager [INFO] INFO: url 'http://www.pzz.by' is being opened...
+2019-06-10 21:08:01 DriverListener [INFO] INFO: url 'http://www.pzz.by' is opened.
+2019-06-10 21:08:06 DriverListener [INFO] PASS: element 'By.className: in-cart' is clicked.
+2019-06-10 21:08:08 DriverListener [INFO] PASS: element 'By.id: s2id_street-name' is clicked.
+2019-06-10 21:08:10 DriverListener [INFO] PASS: keys cleared in element ''.
+2019-06-10 21:08:12 DriverListener [INFO] PASS: keys 'Рафиева' are sent to element ''.
+2019-06-10 21:08:14 DriverListener [INFO] PASS: element 'By.className: select2-result-label' is clicked.
+2019-06-10 21:08:16 DriverListener [INFO] PASS: element 'By.id: s2id_home-number' is clicked.
+2019-06-10 21:08:17 DriverListener [INFO] PASS: keys cleared in element 'By.id: s2id_autogen2_search'.
+2019-06-10 21:08:19 DriverListener [INFO] PASS: keys '93/3' are sent to element 'By.id: s2id_autogen2_search'.
+2019-06-10 21:08:21 DriverListener [INFO] PASS: element 'By.className: select2-result-label' is clicked.
+2019-06-10 21:08:22 DriverListener [INFO] PASS: element 'By.id: byaddress' is clicked.
+2019-06-10 21:08:25 DriverListener [INFO] PASS: element 'By.className: in-cart' is clicked.
+2019-06-10 21:08:27 DriverListener [INFO] PASS: element 'By.className: minus-item' is clicked.
+2019-06-10 21:08:29 DriverListener [INFO] PASS: element 'By.className: in-cart' is clicked.
+2019-06-10 21:08:31 DriverListener [INFO] PASS: element 'By.className: minus-item' is clicked.
+2019-06-10 21:08:32 DriverListener [INFO] PASS: element 'By.className: in-cart' is clicked.
+2019-06-10 21:08:34 DriverListener [INFO] PASS: element 'By.className: in-cart' is clicked.
+2019-06-10 21:08:36 DriverListener [INFO] PASS: element 'By.className: pzz-cart__goto' is clicked.
+2019-06-10 21:08:37 DriverListener [INFO] PASS: keys cleared in element 'By.className: i-p'.
+2019-06-10 21:08:39 DriverListener [INFO] PASS: keys 'Максим' are sent to element 'By.className: i-p'.
+2019-06-10 21:08:40 DriverListener [INFO] PASS: keys cleared in element 'By.name: phoneNumber'.
+2019-06-10 21:08:41 DriverListener [INFO] PASS: keys '447882912' are sent to element 'By.name: phoneNumber'.
+2019-06-10 21:08:42 DriverListener [INFO] PASS: keys cleared in element 'By.name: flat'.
+2019-06-10 21:08:43 DriverListener [INFO] PASS: keys '30' are sent to element 'By.name: flat'.
+2019-06-10 21:08:44 DriverListener [INFO] PASS: keys cleared in element 'By.name: entrance'.
+2019-06-10 21:08:46 DriverListener [INFO] PASS: keys '1' are sent to element 'By.name: entrance'.
+2019-06-10 21:08:47 DriverListener [INFO] PASS: keys cleared in element 'By.name: floor'.
+2019-06-10 21:08:48 DriverListener [INFO] PASS: keys '6' are sent to element 'By.name: floor'.
+2019-06-10 21:08:49 DriverListener [INFO] PASS: keys cleared in element 'By.name: intercom'.
+2019-06-10 21:08:50 DriverListener [INFO] PASS: keys '30' are sent to element 'By.name: intercom'.
+2019-06-10 21:08:51 DriverListener [INFO] PASS: element 'By.className: payment-charge-button' is clicked.
+2019-06-10 21:08:53 Messager [INFO] INFO:  TEST [carina - testOrder] PASSED at [21:08:53 2019-06-10]
+2019-06-10 21:08:53 Messager [INFO] INFO: '**************** Test execution summary ****************'.
+2019-06-10 21:08:53 Messager [INFO] RESULT #1: TEST [carina - testOrder] PASS [screenshots=file:///Users/maksimparhomenko/work/carina/./reports/qa/1560190075947/carina_-_testOrder/report.html | log=file:///Users/maksimparhomenko/work/carina/./reports/qa/1560190075947/carina_-_testOrder/test.log]
