@@ -88,7 +88,7 @@ public class WebSampleTest extends AbstractTest {
         List<ExtendedWebElement> basketForms = homePage.findExtendedWebElements(By.className("ips"));
 
         basketForms.get(0).findExtendedWebElement(By.className("i-p")).type("Максим");
-        basketForms.get(1).findExtendedWebElement(By.name("phoneNumber")).type("447882912");
+        basketForms.get(1).findExtendedWebElement(By.name("phoneNumber")).type("447882913");
         basketForms.get(2).findExtendedWebElement(By.name("flat")).type("30");
         basketForms.get(2).findExtendedWebElement(By.name("entrance")).type("1");
         basketForms.get(2).findExtendedWebElement(By.name("floor")).type("6");
