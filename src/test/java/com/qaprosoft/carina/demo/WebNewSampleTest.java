@@ -33,7 +33,7 @@ import com.qaprosoft.carina.demo.gui.pages.HomePage;
  *
  * @author qpsdemo
  */
-public class WebTest extends AbstractTest {
+public class WebNewSampleTest extends AbstractTest {
     @Test
     @MethodOwner(owner = "qpsdemo")
     @TestPriority(Priority.P1)
