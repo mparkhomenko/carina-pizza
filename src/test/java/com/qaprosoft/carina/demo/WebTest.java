@@ -37,7 +37,7 @@ public class WebTest extends AbstractTest {
     @Test
     @MethodOwner(owner = "qpsdemo")
     @TestPriority(Priority.P1)
-    @TestTag(name = "area test", value = "web")
+    @TestTag(name = "area testtt", value = "web")
     public void testCompare() {
         HomePage homePage = new HomePage(getDriver());
         homePage.open();
