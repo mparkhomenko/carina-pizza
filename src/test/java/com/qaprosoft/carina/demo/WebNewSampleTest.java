@@ -15,13 +15,10 @@
  */
 package com.qaprosoft.carina.demo;
 
-import java.util.List;
-
 import com.qaprosoft.carina.core.foundation.utils.tag.Priority;
 import com.qaprosoft.carina.core.foundation.utils.tag.TestPriority;
 import com.qaprosoft.carina.core.foundation.utils.tag.TestTag;
-import com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement;
-import org.openqa.selenium.By;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import com.qaprosoft.carina.core.foundation.AbstractTest;
