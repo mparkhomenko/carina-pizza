@@ -40,6 +40,6 @@ public class WebNewSampleTest extends AbstractTest {
         homePage.open();
 
         String title = homePage.getDriver().getTitle();
-        Assert.assertTrue(title.equals("Пицца Лисицца"));
+        Assert.assertEquals(title, "Пицца Лисицца");
     }
 }

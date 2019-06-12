@@ -1,0 +1,2 @@
+[2019-06-12 01:07:20] [IMessager.java] [1] [INFO] INFO: '**************** Test execution summary ****************'.
+[2019-06-12 01:07:20] [IMessager.java] [1] [INFO] RESULT #1: TEST [TestNGTest-d989a0e0-7b4d-401d-b75f-1e1ce7f1bee7 - testOrder] PASS [screenshots=file:///Users/maksimparhomenko/work/carina-pizza/./reports/qa/1560333981517/TestNGTest-d989a0e0-7b4d-401d-b75f-1e1ce7f1bee7_-_testOrder/report.html | log=file:///Users/maksimparhomenko/work/carina-pizza/./reports/qa/1560333981517/TestNGTest-d989a0e0-7b4d-401d-b75f-1e1ce7f1bee7_-_testOrder/test.log]
