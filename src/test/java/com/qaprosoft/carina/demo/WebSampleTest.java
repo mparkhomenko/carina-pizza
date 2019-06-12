@@ -98,4 +98,16 @@ public class WebSampleTest extends AbstractTest {
 
 //        homePage.findElements(By.className("save-order")).get(0).click();
     }
+
+    @Test
+    @MethodOwner(owner = "qpsdemo")
+    @TestPriority(Priority.P1)
+    @TestTag(name = "area test", value = "web")
+    public void testCompare() {
+        HomePage homePage = new HomePage(getDriver());
+        homePage.open();
+
+        String title = homePage.getDriver().getTitle();
+        Assert.assertTrue(title.equals("Пицца Лисицца"));
+    }
 }
